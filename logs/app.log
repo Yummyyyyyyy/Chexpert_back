@@ -1,0 +1,243 @@
+2025-10-16 15:08:52.944 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-16 15:08:52.944 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-16 15:08:52.944 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-16 15:09:02.235 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-16 15:09:03.015 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-16 15:09:03.016 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-16 15:09:03.016 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-16 15:09:13.718 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-16 15:09:14.593 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-16 15:09:14.593 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-16 15:09:14.593 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-16 15:09:57.231 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-16 15:09:57.231 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-16 15:09:57.231 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-16 15:10:12.575 | INFO     | app.api.v1.endpoints.third_party:query_knowledge_graph:44 - 🔍 收到知识图谱查询请求: Cardiomegaly
+2025-10-16 15:10:12.576 | WARNING  | app.services.third_party_service:query_disease:67 - ⚠️  第三方API调用逻辑待实现 (third_party_service.py:65)
+2025-10-16 15:10:12.576 | WARNING  | app.services.third_party_service:query_disease:74 - ⚠️  未配置第三方API地址或密钥，使用模拟数据
+2025-10-16 15:10:13.378 | INFO     | app.services.third_party_service:query_disease:127 - 🔍 模拟返回知识图谱: Cardiomegaly
+2025-10-16 15:10:13.379 | SUCCESS  | app.api.v1.endpoints.third_party:query_knowledge_graph:54 - ✅ 知识图谱查询成功: Cardiomegaly
+2025-10-16 15:18:15.352 | INFO     | app.api.v1.endpoints.third_party:query_knowledge_graph:44 - 🔍 收到知识图谱查询请求: Cardiomegaly
+2025-10-16 15:18:15.356 | WARNING  | app.services.third_party_service:query_disease:67 - ⚠️  第三方API调用逻辑待实现 (third_party_service.py:65)
+2025-10-16 15:18:15.356 | WARNING  | app.services.third_party_service:query_disease:74 - ⚠️  未配置第三方API地址或密钥，使用模拟数据
+2025-10-16 15:18:16.157 | INFO     | app.services.third_party_service:query_disease:127 - 🔍 模拟返回知识图谱: Cardiomegaly
+2025-10-16 15:18:16.158 | SUCCESS  | app.api.v1.endpoints.third_party:query_knowledge_graph:54 - ✅ 知识图谱查询成功: Cardiomegaly
+2025-10-16 15:19:39.764 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: view1_frontal.jpg
+2025-10-16 15:19:39.766 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads/original_733a19b6c7fc46538250da2676060e20.jpg
+2025-10-16 15:19:39.767 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads/original_733a19b6c7fc46538250da2676060e20.jpg
+2025-10-16 15:19:39.767 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-16 15:19:40.268 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads/heatmap_1760599180.jpg
+2025-10-16 15:19:40.269 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-16 15:21:00.112 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: view1_frontal.jpg
+2025-10-16 15:21:00.114 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads/original_fd3611ecb2c442a28426a6936b1109fe.jpg
+2025-10-16 15:21:00.114 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads/original_fd3611ecb2c442a28426a6936b1109fe.jpg
+2025-10-16 15:21:00.114 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-16 15:21:00.616 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads/heatmap_1760599260.jpg
+2025-10-16 15:21:00.617 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 21:17:41.212 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-19 21:17:41.212 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-19 21:17:41.213 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-19 21:29:57.821 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient00023_study1_view1_frontal.jpg
+2025-10-19 21:29:57.823 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_421771759f724f76a579a2fbaf5ef047.jpg
+2025-10-19 21:29:57.823 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_421771759f724f76a579a2fbaf5ef047.jpg
+2025-10-19 21:29:57.825 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 21:29:58.330 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760880598.jpg
+2025-10-19 21:29:58.331 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 21:31:21.139 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-19 21:56:29.961 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-19 21:56:29.961 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-19 21:56:29.962 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-19 21:57:32.427 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-19 21:57:33.381 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-19 21:57:33.381 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-19 21:57:33.381 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-19 21:57:36.444 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-19 21:57:40.982 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-19 21:57:40.982 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-19 21:57:40.983 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-19 21:57:58.999 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient00029_study1_view1_frontal.jpg
+2025-10-19 21:57:59.000 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_4986df260e3c4bf9a58d57d31df52293.jpg
+2025-10-19 21:57:59.000 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_4986df260e3c4bf9a58d57d31df52293.jpg
+2025-10-19 21:57:59.000 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 21:57:59.523 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760882279.jpg
+2025-10-19 21:57:59.524 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 21:58:03.245 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_4986df260e3c4bf9a58d57d31df52293.jpg
+2025-10-19 21:58:03.245 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_4986df260e3c4bf9a58d57d31df52293.jpg
+2025-10-19 21:58:03.304 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 22:00:03.926 | ERROR    | app.services.llava7b_service:generate_report:126 - ❌ API 调用超时 (>120秒)
+2025-10-19 22:00:03.927 | ERROR    | app.api.v1.endpoints.llava7b_report:generate_report_v2:90 - ❌ LLAVA-7B 报告生成失败: LLAVA-7B API 调用超时
+2025-10-19 22:00:48.894 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient00045_study1_view1_frontal.jpg
+2025-10-19 22:00:48.894 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_a51931b3d6644025a8986b657b87ccc5.jpg
+2025-10-19 22:00:48.896 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_a51931b3d6644025a8986b657b87ccc5.jpg
+2025-10-19 22:00:48.896 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 22:00:49.405 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760882449.jpg
+2025-10-19 22:00:49.405 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 22:00:51.600 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_a51931b3d6644025a8986b657b87ccc5.jpg
+2025-10-19 22:00:51.600 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_a51931b3d6644025a8986b657b87ccc5.jpg
+2025-10-19 22:00:51.610 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 22:02:52.222 | ERROR    | app.services.llava7b_service:generate_report:126 - ❌ API 调用超时 (>120秒)
+2025-10-19 22:02:52.223 | ERROR    | app.api.v1.endpoints.llava7b_report:generate_report_v2:90 - ❌ LLAVA-7B 报告生成失败: LLAVA-7B API 调用超时
+2025-10-19 22:53:54.619 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-19 22:59:34.774 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-19 22:59:34.774 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-19 22:59:34.775 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-19 22:59:51.491 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient37690_study4_view1_frontal.jpg
+2025-10-19 22:59:51.492 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_fd0bbdf189a949bea1c923e0f6086b9f.jpg
+2025-10-19 22:59:51.492 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_fd0bbdf189a949bea1c923e0f6086b9f.jpg
+2025-10-19 22:59:51.493 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 22:59:52.015 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760885992.jpg
+2025-10-19 22:59:52.015 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 22:59:54.550 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_fd0bbdf189a949bea1c923e0f6086b9f.jpg
+2025-10-19 22:59:54.550 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_fd0bbdf189a949bea1c923e0f6086b9f.jpg
+2025-10-19 22:59:54.576 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:00:05.265 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:00:05.266 | SUCCESS  | app.services.llava7b_service:generate_report:121 - ✅ LLAVA-7B 报告生成完成! 耗时: 10.72秒
+2025-10-19 23:00:05.267 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 10.72秒
+2025-10-19 23:06:25.645 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient37690_study4_view1_frontal.jpg
+2025-10-19 23:06:25.646 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_a98be03f8b244db382a2ef21aa93b2f3.jpg
+2025-10-19 23:06:25.647 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_a98be03f8b244db382a2ef21aa93b2f3.jpg
+2025-10-19 23:06:25.647 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:06:26.171 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760886386.jpg
+2025-10-19 23:06:26.171 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:06:28.530 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_a98be03f8b244db382a2ef21aa93b2f3.jpg
+2025-10-19 23:06:28.531 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_a98be03f8b244db382a2ef21aa93b2f3.jpg
+2025-10-19 23:06:28.540 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:06:38.668 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:06:38.668 | SUCCESS  | app.services.llava7b_service:generate_report:121 - ✅ LLAVA-7B 报告生成完成! 耗时: 10.14秒
+2025-10-19 23:06:38.670 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 10.14秒
+2025-10-19 23:08:25.022 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient00029_study1_view1_frontal.jpg
+2025-10-19 23:08:25.023 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_8493686dfc3e458f975283c1a3b95e5e.jpg
+2025-10-19 23:08:25.023 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_8493686dfc3e458f975283c1a3b95e5e.jpg
+2025-10-19 23:08:25.025 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:08:25.535 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760886505.jpg
+2025-10-19 23:08:25.535 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:08:27.722 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_8493686dfc3e458f975283c1a3b95e5e.jpg
+2025-10-19 23:08:27.723 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_8493686dfc3e458f975283c1a3b95e5e.jpg
+2025-10-19 23:08:27.731 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:09:16.950 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:09:16.951 | SUCCESS  | app.services.llava7b_service:generate_report:121 - ✅ LLAVA-7B 报告生成完成! 耗时: 49.23秒
+2025-10-19 23:09:16.953 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 49.23秒
+2025-10-19 23:12:02.682 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient37690_study4_view1_frontal.jpg
+2025-10-19 23:12:02.683 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_646c33d353f941afa75afe87c2f1aa5d.jpg
+2025-10-19 23:12:02.684 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_646c33d353f941afa75afe87c2f1aa5d.jpg
+2025-10-19 23:12:02.684 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:12:03.192 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760886723.jpg
+2025-10-19 23:12:03.193 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:12:05.424 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_646c33d353f941afa75afe87c2f1aa5d.jpg
+2025-10-19 23:12:05.425 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_646c33d353f941afa75afe87c2f1aa5d.jpg
+2025-10-19 23:12:05.434 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:12:15.771 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:12:15.771 | SUCCESS  | app.services.llava7b_service:generate_report:121 - ✅ LLAVA-7B 报告生成完成! 耗时: 10.35秒
+2025-10-19 23:12:15.773 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 10.35秒
+2025-10-19 23:12:25.728 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-19 23:13:56.174 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-19 23:13:56.175 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-19 23:13:56.175 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-19 23:14:20.828 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient37690_study4_view1_frontal.jpg
+2025-10-19 23:14:20.830 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_155c871652c243559e41bfae146994a4.jpg
+2025-10-19 23:14:20.831 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_155c871652c243559e41bfae146994a4.jpg
+2025-10-19 23:14:20.831 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:14:21.335 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760886861.jpg
+2025-10-19 23:14:21.336 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:14:23.832 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_155c871652c243559e41bfae146994a4.jpg
+2025-10-19 23:14:23.833 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_155c871652c243559e41bfae146994a4.jpg
+2025-10-19 23:14:23.865 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:14:34.067 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:14:34.068 | SUCCESS  | app.services.llava7b_service:generate_report:125 - ✅ LLAVA-7B 报告生成完成! 耗时: 10.23秒
+2025-10-19 23:14:34.070 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 10.23秒
+2025-10-19 23:15:34.797 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-19 23:16:02.034 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-19 23:16:02.035 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-19 23:16:02.035 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-19 23:16:40.823 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient37690_study4_view1_frontal.jpg
+2025-10-19 23:16:40.825 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_445120631ad44d9183427bc17cce5eb5.jpg
+2025-10-19 23:16:40.825 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_445120631ad44d9183427bc17cce5eb5.jpg
+2025-10-19 23:16:40.825 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:16:41.331 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760887001.jpg
+2025-10-19 23:16:41.332 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:16:43.355 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_445120631ad44d9183427bc17cce5eb5.jpg
+2025-10-19 23:16:43.356 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_445120631ad44d9183427bc17cce5eb5.jpg
+2025-10-19 23:16:43.379 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:16:53.470 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:16:53.470 | SUCCESS  | app.services.llava7b_service:generate_report:125 - ✅ LLAVA-7B 报告生成完成! 耗时: 10.11秒
+2025-10-19 23:16:53.472 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 10.11秒
+2025-10-19 23:18:02.666 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient00046_study2_view2_lateral.jpg
+2025-10-19 23:18:02.667 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_da84c034313446d3a68971982b76409c.jpg
+2025-10-19 23:18:02.667 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_da84c034313446d3a68971982b76409c.jpg
+2025-10-19 23:18:02.667 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:18:03.194 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760887083.jpg
+2025-10-19 23:18:03.194 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:18:05.435 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_da84c034313446d3a68971982b76409c.jpg
+2025-10-19 23:18:05.435 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_da84c034313446d3a68971982b76409c.jpg
+2025-10-19 23:18:05.445 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:18:54.471 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:18:54.472 | SUCCESS  | app.services.llava7b_service:generate_report:125 - ✅ LLAVA-7B 报告生成完成! 耗时: 49.04秒
+2025-10-19 23:18:54.474 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 49.04秒
+2025-10-19 23:19:12.219 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient00058_study1_view1_frontal.jpg
+2025-10-19 23:19:12.220 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_a11c33c36fa149068718f28d33298a20.jpg
+2025-10-19 23:19:12.221 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_a11c33c36fa149068718f28d33298a20.jpg
+2025-10-19 23:19:12.221 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:19:12.714 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760887152.jpg
+2025-10-19 23:19:12.715 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:19:15.448 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_a11c33c36fa149068718f28d33298a20.jpg
+2025-10-19 23:19:15.449 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_a11c33c36fa149068718f28d33298a20.jpg
+2025-10-19 23:19:15.459 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:20:04.337 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:20:04.337 | SUCCESS  | app.services.llava7b_service:generate_report:125 - ✅ LLAVA-7B 报告生成完成! 耗时: 48.89秒
+2025-10-19 23:20:04.339 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 48.89秒
+2025-10-19 23:24:39.725 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
+2025-10-19 23:25:23.123 | INFO     | app.main:startup_event:69 - 🚀 启动 CheXpert Backend API v1.0.0
+2025-10-19 23:25:23.123 | INFO     | app.main:startup_event:70 - 📝 API文档地址: http://0.0.0.0:8000/docs
+2025-10-19 23:25:23.124 | INFO     | app.main:startup_event:71 - 🌍 环境: 开发模式
+2025-10-19 23:25:51.354 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient37690_study4_view1_frontal.jpg
+2025-10-19 23:25:51.356 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_22479e5aba2b4e5884e4cce50de1d6b0.jpg
+2025-10-19 23:25:51.357 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_22479e5aba2b4e5884e4cce50de1d6b0.jpg
+2025-10-19 23:25:51.357 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:25:51.876 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760887551.jpg
+2025-10-19 23:25:51.877 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:25:54.296 | INFO     | app.api.v1.endpoints.llava_report:generate_report:43 - 📝 收到报告生成请求: /uploads\original_22479e5aba2b4e5884e4cce50de1d6b0.jpg
+2025-10-19 23:25:54.297 | INFO     | app.services.llava_service:generate_report:45 - 📝 开始调用 Colab API: uploads\original_22479e5aba2b4e5884e4cce50de1d6b0.jpg
+2025-10-19 23:25:54.306 | INFO     | app.services.llava_service:generate_report:77 - 🌐 调用 Colab API: https://electrophoretic-garnet-bouncily.ngrok-free.dev/predict
+2025-10-19 23:26:08.291 | SUCCESS  | app.services.llava_service:generate_report:92 - ✅ 报告生成完成! 耗时: 13.99秒
+2025-10-19 23:26:08.291 | SUCCESS  | app.api.v1.endpoints.llava_report:generate_report:53 - ✅ 报告生成完成，耗时: 13.99秒
+2025-10-19 23:26:17.648 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_22479e5aba2b4e5884e4cce50de1d6b0.jpg
+2025-10-19 23:26:17.649 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_22479e5aba2b4e5884e4cce50de1d6b0.jpg
+2025-10-19 23:26:17.663 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:26:28.080 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:26:28.082 | SUCCESS  | app.services.llava7b_service:generate_report:125 - ✅ LLAVA-7B 报告生成完成! 耗时: 10.43秒
+2025-10-19 23:26:28.084 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 10.43秒
+2025-10-19 23:28:22.187 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient37690_study4_view1_frontal.jpg
+2025-10-19 23:28:22.188 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_e7f3383961b24305a0a5135fc0a1b6c0.jpg
+2025-10-19 23:28:22.188 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_e7f3383961b24305a0a5135fc0a1b6c0.jpg
+2025-10-19 23:28:22.188 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:28:22.691 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760887702.jpg
+2025-10-19 23:28:22.691 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:28:25.079 | INFO     | app.api.v1.endpoints.llava_report:generate_report:43 - 📝 收到报告生成请求: /uploads\original_e7f3383961b24305a0a5135fc0a1b6c0.jpg
+2025-10-19 23:28:25.080 | INFO     | app.services.llava_service:generate_report:45 - 📝 开始调用 Colab API: uploads\original_e7f3383961b24305a0a5135fc0a1b6c0.jpg
+2025-10-19 23:28:25.088 | INFO     | app.services.llava_service:generate_report:77 - 🌐 调用 Colab API: https://electrophoretic-garnet-bouncily.ngrok-free.dev/predict
+2025-10-19 23:28:30.378 | SUCCESS  | app.services.llava_service:generate_report:92 - ✅ 报告生成完成! 耗时: 5.30秒
+2025-10-19 23:28:30.379 | SUCCESS  | app.api.v1.endpoints.llava_report:generate_report:53 - ✅ 报告生成完成，耗时: 5.30秒
+2025-10-19 23:28:37.515 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_e7f3383961b24305a0a5135fc0a1b6c0.jpg
+2025-10-19 23:28:37.515 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_e7f3383961b24305a0a5135fc0a1b6c0.jpg
+2025-10-19 23:28:37.517 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:28:47.832 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:28:47.832 | SUCCESS  | app.services.llava7b_service:generate_report:125 - ✅ LLAVA-7B 报告生成完成! 耗时: 10.32秒
+2025-10-19 23:28:47.835 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 10.32秒
+2025-10-19 23:34:30.416 | INFO     | app.api.v1.endpoints.upload:analyze_image:62 - 📥 收到图像上传请求: patient37690_study4_view1_frontal.jpg
+2025-10-19 23:34:30.417 | INFO     | app.utils.image_utils:save_upload_file:59 - 💾 文件已保存: uploads\original_bc3f9dd5d1ea4fa19218b16317eae657.jpg
+2025-10-19 23:34:30.417 | INFO     | app.api.v1.endpoints.upload:analyze_image:66 - 💾 图片已保存: uploads\original_bc3f9dd5d1ea4fa19218b16317eae657.jpg
+2025-10-19 23:34:30.418 | WARNING  | app.models.heatmap_generator:generate:66 - ⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)
+2025-10-19 23:34:30.928 | INFO     | app.models.heatmap_generator:generate:79 - 💡 模拟生成热力图: uploads\heatmap_1760888070.jpg
+2025-10-19 23:34:30.928 | SUCCESS  | app.api.v1.endpoints.upload:analyze_image:73 - ✅ 分析完成，检测到 3 个疾病类别
+2025-10-19 23:34:33.168 | INFO     | app.api.v1.endpoints.llava_report:generate_report:43 - 📝 收到报告生成请求: /uploads\original_bc3f9dd5d1ea4fa19218b16317eae657.jpg
+2025-10-19 23:34:33.168 | INFO     | app.services.llava_service:generate_report:45 - 📝 开始调用 Colab API: uploads\original_bc3f9dd5d1ea4fa19218b16317eae657.jpg
+2025-10-19 23:34:33.177 | INFO     | app.services.llava_service:generate_report:77 - 🌐 调用 Colab API: https://electrophoretic-garnet-bouncily.ngrok-free.dev/predict
+2025-10-19 23:34:47.028 | SUCCESS  | app.services.llava_service:generate_report:92 - ✅ 报告生成完成! 耗时: 13.86秒
+2025-10-19 23:34:47.029 | SUCCESS  | app.api.v1.endpoints.llava_report:generate_report:53 - ✅ 报告生成完成，耗时: 13.86秒
+2025-10-19 23:34:49.958 | INFO     | app.api.v1.endpoints.llava7b_report:generate_report_v2:58 - 📝 收到 LLAVA-7B 报告生成请求: /uploads\original_bc3f9dd5d1ea4fa19218b16317eae657.jpg
+2025-10-19 23:34:49.958 | INFO     | app.services.llava7b_service:generate_report:49 - 📝 开始调用 LLAVA-7B API: uploads\original_bc3f9dd5d1ea4fa19218b16317eae657.jpg
+2025-10-19 23:34:49.959 | INFO     | app.services.llava7b_service:generate_report:94 - 🌐 调用 LLAVA-7B API: https://outwardly-electromotive-lady.ngrok-free.dev/inference
+2025-10-19 23:35:00.221 | INFO     | app.services.llava7b_service:generate_report:103 - 状态码: 200
+2025-10-19 23:35:00.222 | SUCCESS  | app.services.llava7b_service:generate_report:125 - ✅ LLAVA-7B 报告生成完成! 耗时: 10.26秒
+2025-10-19 23:35:00.223 | SUCCESS  | app.api.v1.endpoints.llava7b_report:generate_report_v2:68 - ✅ LLAVA-7B 报告生成完成,耗时: 10.26秒
+2025-10-19 23:51:49.580 | INFO     | app.main:shutdown_event:88 - 👋 应用正在关闭...
