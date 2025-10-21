@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/yangminyue/**)",
+      "Bash(pip install:*)",
+      "Bash(python test_llava.py:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

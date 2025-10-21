@@ -1,0 +1,42 @@
+# FastAPI 核心框架
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6  # 文件上传支持
+
+# 数据验证
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# 深度学习框架 (仅用于图像处理,不再需要本地模型推理)
+# torch 和 transformers 已移除,通过 Colab API 远程调用
+
+# 图像处理
+Pillow==10.1.0
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# HTTP客户端（调用第三方API）
+httpx==0.25.1
+requests==2.31.0
+
+# 数据库（如果需要）
+# sqlalchemy==2.0.23
+# pymysql==1.1.0
+
+# 配置管理
+python-dotenv==1.0.0
+
+# 日志
+loguru==0.7.2
+
+# CORS支持（前后端分离必需）
+# fastapi已内置，无需额外安装
+
+# 测试
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.1  # 用于测试API
+
+# 其他工具
+python-jose[cryptography]==3.3.0  # JWT认证（如果需要）
+passlib[bcrypt]==1.7.4  # 密码加密（如果需要）
