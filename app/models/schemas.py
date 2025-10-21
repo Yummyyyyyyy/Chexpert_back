@@ -28,6 +28,7 @@ class ReportRequest(BaseModel):
     """报告生成请求"""
     image_path: str  # 图片路径（可以是前面上传接口返回的路径）
     prompt: Optional[str] = "请分析这张X光片并生成详细的医学报告"  # 自定义提示词
+    pathology_labels: Optional[List[str]] = None  # 病症标签列表（前端传入Top3）
 
 
 class ReportResponse(BaseModel):
@@ -58,4 +59,5 @@ class Llava7bReportRequest(BaseModel):
     """LLAVA-7B报告生成请求"""
     image_path: str  # 图片路径（可以是前面上传接口返回的路径）
     prompt: Optional[str] = None  # 自定义提示词（可选）
-    support_info: Optional[str] = None  # 分类结果支持信息（可选，预留给未来的/api/v1/image/analyze接口）
+    support_info: Optional[str] = None  # 分类结果支持信息（可选，已弃用，改用pathology_labels）
+    pathology_labels: Optional[List[str]] = None  # 病症标签列表（前端传入Top3）

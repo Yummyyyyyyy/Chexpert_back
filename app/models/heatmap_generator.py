@@ -73,10 +73,13 @@ class HeatmapGenerator:
 
         # 模拟保存热力图（实际应该生成真实热力图）
         heatmap_filename = f"heatmap_{int(time.time())}.jpg"
-        heatmap_path = os.path.join(settings.UPLOAD_DIR, heatmap_filename)
+        heatmap_full_path = os.path.join(settings.UPLOAD_DIR, heatmap_filename)
+
+        # 返回相对于uploads目录的路径（供前端访问）
+        heatmap_path = heatmap_filename  # 只返回文件名
 
         # 【TODO】替换为真实的热力图生成代码
-        logger.info(f"💡 模拟生成热力图: {heatmap_path}")
+        logger.info(f"💡 模拟生成热力图: {heatmap_full_path}")
 
         # 模拟分类结果（CheXpert常见疾病类别）
         # 【TODO】替换为真实模型输出

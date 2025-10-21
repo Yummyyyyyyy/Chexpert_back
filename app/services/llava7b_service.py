@@ -9,6 +9,9 @@ import requests
 from PIL import Image
 import io
 import re
+import os
+from datetime import datetime
+from pathlib import Path
 
 from app.config import settings
 
@@ -25,7 +28,8 @@ class LLaVA7BService:
         self,
         image_path: str,
         prompt: Optional[str] = None,
-        support_info: Optional[str] = None
+        support_info: Optional[str] = None,
+        pathology_labels: Optional[list] = None
     ) -> Tuple[str, float]:
         """
         生成医学报告 - 通过 LLAVA-7B API
@@ -33,7 +37,8 @@ class LLaVA7BService:
         参数:
             image_path: 图片路径
             prompt: 用户自定义提示词 (可选)
-            support_info: 分类结果支持信息 (可选,预留给未来/api/v1/image/analyze接口)
+            support_info: 分类结果支持信息 (可选,已弃用,保留向后兼容)
+            pathology_labels: 病症标签列表 (可选,推荐使用Top3标签)
 
         返回:
             (report, processing_time): 报告文本和处理时间
@@ -58,15 +63,18 @@ class LLaVA7BService:
             img_byte_arr = img_byte_arr.getvalue()
 
             # 3. 构建prompt (参考prompt.txt)
-            # 注意: support_info当前为空,但保留占位符供将来使用
             if not prompt:
                 # 使用默认的prompt模板,参考 model_llava/deploy/prompt.txt
-                # 当support_info未来实现时,将被插入到clinical context中
-                if support_info:
+                # 优先使用pathology_labels,如果没有则回退到support_info
+                clinical_context = "Based on the chest X-ray image"
+
+                if pathology_labels and len(pathology_labels) > 0:
+                    # 使用病症标签列表构建临床上下文
+                    labels_str = ", ".join(pathology_labels[:3])  # 只使用前3个
+                    clinical_context = f"Based on the chest X-ray image with detected pathologies: {labels_str}"
+                elif support_info:
+                    # 向后兼容: 使用旧的support_info
                     clinical_context = f"Based on the chest X-ray image and clinical context: {support_info}"
-                else:
-                    # 当前/api/v1/image/analyze接口未实现,忽略support_info
-                    clinical_context = "Based on the chest X-ray image"
 
                 question = (
                     f"<image>\nYou are an experienced radiologist. {clinical_context}, generate a report with 3 sections. "
@@ -123,6 +131,11 @@ class LLaVA7BService:
 
             processing_time = time.time() - start_time
             logger.success(f"✅ LLAVA-7B 报告生成完成! 耗时: {processing_time:.2f}秒")
+
+            # 9. 保存报告到本地存档
+            report_path = self._save_report(cleaned_report, image_path, pathology_labels)
+            if report_path:
+                logger.info(f"📁 报告已保存: {report_path}")
 
             return cleaned_report, processing_time
 
@@ -188,6 +201,61 @@ class LLaVA7BService:
             logger.info(f"🧹 清理重复句子: {original_count} -> {cleaned_count}")
 
         return result
+
+    def _save_report(
+        self,
+        report_text: str,
+        image_path: str,
+        pathology_labels: Optional[list] = None
+    ) -> Optional[str]:
+        """
+        保存报告到本地文件
+
+        参数:
+            report_text: 报告内容
+            image_path: 图像路径
+            pathology_labels: 病症标签列表
+
+        返回:
+            保存的文件路径，失败返回None
+        """
+        try:
+            # 创建reports目录
+            reports_dir = Path("reports/llava7b")
+            reports_dir.mkdir(parents=True, exist_ok=True)
+
+            # 生成文件名：时间戳 + 图像文件名
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            image_filename = os.path.basename(image_path).split('.')[0]
+            report_filename = f"{timestamp}_{image_filename}.txt"
+            report_path = reports_dir / report_filename
+
+            # 构建报告内容（包含元数据）
+            full_content = []
+            full_content.append("=" * 80)
+            full_content.append("LLaVA-7B Medical Report")
+            full_content.append("=" * 80)
+            full_content.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            full_content.append(f"Image: {image_path}")
+
+            if pathology_labels and len(pathology_labels) > 0:
+                full_content.append(f"Detected Pathologies: {', '.join(pathology_labels)}")
+
+            full_content.append("=" * 80)
+            full_content.append("")
+            full_content.append(report_text)
+            full_content.append("")
+            full_content.append("=" * 80)
+
+            # 写入文件
+            with open(report_path, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(full_content))
+
+            return str(report_path)
+
+        except Exception as e:
+            logger.error(f"❌ 保存报告失败: {str(e)}")
+            return None
 
 
 # 全局单例

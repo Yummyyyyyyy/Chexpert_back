@@ -7,8 +7,10 @@ python-multipart==0.0.6  # 文件上传支持
 pydantic==2.5.0
 pydantic-settings==2.1.0
 
-# 深度学习框架 (仅用于图像处理,不再需要本地模型推理)
-# torch 和 transformers 已移除,通过 Colab API 远程调用
+# 深度学习框架 (用于本地模型推理 - DenseNet121 病症分类)
+torch==2.2.2
+torchvision==0.17.2
+# 安装时使用: pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
 
 # 图像处理
 Pillow==10.1.0

@@ -1,0 +1,21 @@
+================================================================================
+LLaVA-7B Medical Report
+================================================================================
+Generated: 2025-10-21 17:05:44
+Image: uploads/original_1a1d132adeaf44d5a14841e85e694a70.jpg
+================================================================================
+
+IMPRESSSION: 1. NO ACUTE CARDIOPULMONARY ABNORMALITIES. FINDINGS SHOW A NORMAL APPEARANCE OF THE HEART AND LUNGS WITHIN THE LIMITS OF CLINICAL RADIOGRAPHY. FINDNGS: 10/26/2004 AT 1857 HOURS
+
+SUMMARY: 1 NO SIGNIFICANT CHANGE FROM PRIOR EXAMINATION. ESTES, JOSEPH, MD: 1 OCTOBER 2009 AT 1600 HOURS 
+
+ELLIOTT, DAVID, M.D.: 1 October 2010 at 1610 hours
+
+
+
+REDMOND, KENNETH, MD: Redmond, Kenneth, MD: _http://www.aportsupply.com/common/redirect.cfm?id=1000011110010021" id="rEDMOND,KENNETH">Redmond, Kenneth MD: 20 October 2100 AT 11:00 HRS. JOHNSON, MARK, MD: Johnson, Mark, MD: http://www.downeyregional.org/common/Redirect.cfm _http://downey.org/Common/Redirect.CFM> 10-26-2005 AT 14:00
+
+
+RICHARDSON, BRIAN, MD: Richardson, Brian, MD: richardson@richardsonmd.com, _http://richardsonMD.com/?p=1> richardsonMD@yahoo.com, Richardson, _Richardson, Brian MD:  _richardson@downey _richard > regional.com> regional.com">richardson md: 1 October _richard _richard 20th 20 _richard_richardson _richard> 20 20_richard _Richard _richardsonson _richard son _richard s _richardsson _richards _richard
+
+================================================================================

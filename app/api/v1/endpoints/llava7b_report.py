@@ -62,7 +62,8 @@ async def generate_report_v2(request: Llava7bReportRequest):
         report, processing_time = await llava7b_service.generate_report(
             image_path=request.image_path,
             prompt=request.prompt,
-            support_info=request.support_info
+            support_info=request.support_info,
+            pathology_labels=request.pathology_labels
         )
 
         logger.success(f"✅ LLAVA-7B 报告生成完成,耗时: {processing_time:.2f}秒")

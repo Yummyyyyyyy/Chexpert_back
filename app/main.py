@@ -23,6 +23,9 @@ from app.pathology_model import PathologyClassifier
 # CheXpert 模型（模块级全局：init_model 后，infer 直接用）
 from .chex_model import init_model as chex_init_model, infer as chex_infer
 
+# API路由
+from app.api.v1.router import api_router
+
 app = FastAPI(title="Chexpert Backend")
 
 # ---------------- CORS ----------------
@@ -32,11 +35,21 @@ app.add_middleware(
     allow_methods=["*"], allow_headers=["*"],
 )
 
+# ---------------- 包含API路由 ----------------
+app.include_router(api_router, prefix="/api/v1")
+
 # ---------------- 静态目录 ----------------
 os.makedirs("static/originals", exist_ok=True)
 os.makedirs("static/heatmaps", exist_ok=True)
+os.makedirs("uploads", exist_ok=True)
+
 try:
     app.mount("/static", StaticFiles(directory="static"), name="static")
+except Exception:
+    pass
+
+try:
+    app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 except Exception:
     pass
 
@@ -54,11 +67,11 @@ def _read_to_pil(data: bytes) -> Image.Image:
 # ---------------- 权重绝对路径（按你提供的） ----------------
 DEFAULT_PATHOLOGY_WEIGHTS = os.getenv(
     "PATHOLOGY_WEIGHTS",
-    r"C:\Users\32068\Desktop\chexpert-new\chexpert\Chexpert_back\weights\pathology_model.pt"
+    "weights/pathology_model.pt"
 )
 DEFAULT_CHEXPERT_WEIGHTS = os.getenv(
     "CHEXPERT_WEIGHTS",
-    r"C:\Users\32068\Desktop\chexpert-new\chexpert\Chexpert_back\weights\final_global_model.pth"
+    "weights/final_global_model.pth"
 )
 
 # ======================================================================
@@ -310,10 +323,12 @@ def history_list():
 REPORT_DIR = Path("static/reports")
 REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
-@app.post("/api/v1/report/generate")
-def generate_report(payload: dict = Body(...)):
+@app.post("/api/v1/report/generate-markdown")
+def generate_markdown_report(payload: dict = Body(...)):
     """
-    生成一份简易 Markdown 报告（前端 LLaVA 报告页调用）
+    生成一份简易 Markdown 报告（旧版本，用于向后兼容）
+    【注意】新的LLaVA报告生成请使用 /api/v1/report/generate 或 /api/v1/report/generate-v2
+
     允许的输入（可缺省）：
       - chexpert: {classifications: [{label, confidence}], heatmap_image_url, original_image_url, meta?...}
       - pathology: {classifications: [{label, confidence}], meta?...}

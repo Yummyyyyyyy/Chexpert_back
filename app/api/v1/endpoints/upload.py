@@ -73,11 +73,13 @@ async def analyze_image(
         logger.success(f"✅ 分析完成，检测到 {len(classifications)} 个疾病类别")
 
         # 4. 返回结果
+        # original_path 和 heatmap_path 都是相对路径或文件名
+        # 需要添加 /uploads/ 前缀以便前端访问
         return AnalysisResponse(
             success=True,
             message="图像分析完成",
-            original_image_url=f"/{original_path}",
-            heatmap_image_url=f"/{heatmap_path}",
+            original_image_url=f"/uploads/{os.path.basename(original_path)}",
+            heatmap_image_url=f"/uploads/{os.path.basename(heatmap_path)}",
             classifications=classifications
         )
 

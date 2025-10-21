@@ -3,10 +3,13 @@ LLaVA模型服务 - 通过 Colab API 远程调用
 调用部署在 Colab 上的 LLaVA 模型生成医学报告
 """
 from loguru import logger
-from typing import Tuple
+from typing import Tuple, Optional
 import time
 import httpx
 import base64
+import os
+from datetime import datetime
+from pathlib import Path
 
 from app.config import settings
 
@@ -22,7 +25,8 @@ class LLaVAService:
     async def generate_report(
         self,
         image_path: str,
-        prompt: str = ""
+        prompt: str = "",
+        pathology_labels: list = None
     ) -> Tuple[str, float]:
         """
         生成医学报告 - 通过 Colab API
@@ -30,6 +34,7 @@ class LLaVAService:
         参数:
             image_path: 图片路径
             prompt: 用户自定义提示词 (可选)
+            pathology_labels: 病症标签列表 (可选,推荐使用Top3标签)
 
         返回:
             (report, processing_time): 报告文本和处理时间
@@ -50,7 +55,14 @@ class LLaVAService:
                 image_base64 = base64.b64encode(f.read()).decode('utf-8')
 
             # 准备请求数据
-            default_prompt = """You are an experienced radiologist. Analyze this chest X-ray image and generate a diagnostic report with EXACTLY these three sections:
+            if not prompt:
+                # 构建默认prompt,如果有病症标签则包含进去
+                pathology_context = ""
+                if pathology_labels and len(pathology_labels) > 0:
+                    labels_str = ", ".join(pathology_labels[:3])  # 只使用前3个
+                    pathology_context = f"\nDetected pathologies: {labels_str}\n"
+
+                default_prompt = f"""You are an experienced radiologist. Analyze this chest X-ray image and generate a diagnostic report with EXACTLY these three sections:{pathology_context}
 
 FINDINGS: [Only mention clinically significant findings relevant to diagnosis - abnormalities, lesions, or pathological changes. Skip normal anatomical descriptions unless diagnostically relevant]
 
@@ -68,10 +80,15 @@ STRICT REQUIREMENTS:
 - Use simple numbered lists with parentheses: 1) 2) 3)
 - Output clean medical text only"""
 
-            request_data = {
-                "image": image_base64,
-                "prompt": prompt or default_prompt
-            }
+                request_data = {
+                    "image": image_base64,
+                    "prompt": default_prompt
+                }
+            else:
+                request_data = {
+                    "image": image_base64,
+                    "prompt": prompt
+                }
 
             # 调用 Colab API
             logger.info(f"🌐 调用 Colab API: {self.colab_api_url}")
@@ -90,6 +107,11 @@ STRICT REQUIREMENTS:
 
             processing_time = time.time() - start_time
             logger.success(f"✅ 报告生成完成! 耗时: {processing_time:.2f}秒")
+
+            # 保存报告到本地存档
+            report_path = self._save_report(report, image_path, pathology_labels)
+            if report_path:
+                logger.info(f"📁 报告已保存: {report_path}")
 
             return report, processing_time
 
@@ -151,6 +173,61 @@ STRICT REQUIREMENTS:
         formatted_lines = [s.strip() for s in sentences if s.strip()]
 
         return '\n'.join(formatted_lines)
+
+    def _save_report(
+        self,
+        report_text: str,
+        image_path: str,
+        pathology_labels: Optional[list] = None
+    ) -> Optional[str]:
+        """
+        保存报告到本地文件
+
+        参数:
+            report_text: 报告内容
+            image_path: 图像路径
+            pathology_labels: 病症标签列表
+
+        返回:
+            保存的文件路径，失败返回None
+        """
+        try:
+            # 创建reports目录
+            reports_dir = Path("reports/llava")
+            reports_dir.mkdir(parents=True, exist_ok=True)
+
+            # 生成文件名：时间戳 + 图像文件名
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            image_filename = os.path.basename(image_path).split('.')[0]
+            report_filename = f"{timestamp}_{image_filename}.txt"
+            report_path = reports_dir / report_filename
+
+            # 构建报告内容（包含元数据）
+            full_content = []
+            full_content.append("=" * 80)
+            full_content.append("LLaVA Medical Report")
+            full_content.append("=" * 80)
+            full_content.append(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            full_content.append(f"Image: {image_path}")
+
+            if pathology_labels and len(pathology_labels) > 0:
+                full_content.append(f"Detected Pathologies: {', '.join(pathology_labels)}")
+
+            full_content.append("=" * 80)
+            full_content.append("")
+            full_content.append(report_text)
+            full_content.append("")
+            full_content.append("=" * 80)
+
+            # 写入文件
+            with open(report_path, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(full_content))
+
+            return str(report_path)
+
+        except Exception as e:
+            logger.error(f"❌ 保存报告失败: {str(e)}")
+            return None
 
 
 # 全局单例

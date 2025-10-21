@@ -41,10 +41,10 @@ class Settings(BaseSettings):
     
     # ============ 模型路径配置 ============
     # 【新增】热力图模型配置
-    MODEL_PATH: str = "final_global_model.pth"  # 热力图生成模型路径
-    
+    MODEL_PATH: str = "weights/final_global_model.pth"  # 热力图生成模型路径
+
     # 【新增】病症标签模型配置
-    PATHOLOGY_MODEL_PATH: str = "pathology_model.pt"  # 病症标签分类模型路径（DenseNet121-14类）
+    PATHOLOGY_MODEL_PATH: str = "weights/pathology_model.pt"  # 病症标签分类模型路径（DenseNet121-14类）
     
     # 【说明】
     # - MODEL_PATH: 用于生成热力图的CAM模型
@@ -114,7 +114,8 @@ def init_directories():
         settings.HEATMAP_DIR,
         settings.UPLOAD_STATIC_DIR,
         "logs",
-        "data"  # 【新增】数据目录（存储历史记录）
+        "data",  # 【新增】数据目录（存储历史记录）
+        "weights"  # 【新增】模型权重目录
     ]
     
     for directory in directories:
@@ -159,10 +160,11 @@ def check_models():
     
     if not all_exists:
         print("⚠️  部分模型文件缺失，请按照以下步骤操作:")
-        print("1. 将热力图模型文件重命名为: final_global_model.pth")
-        print("2. 将病症标签模型文件重命名为: pathology_model.pt")
-        print("3. 将两个模型文件放在项目根目录")
-        print("4. 重启服务")
+        print("1. 创建 weights 目录（如果不存在）")
+        print("2. 将热力图模型文件重命名为: final_global_model.pth")
+        print("3. 将病症标签模型文件重命名为: pathology_model.pt")
+        print("4. 将两个模型文件放在 weights/ 目录下")
+        print("5. 重启服务")
         print("="*60)
     else:
         print("✅ 所有模型文件检查通过")

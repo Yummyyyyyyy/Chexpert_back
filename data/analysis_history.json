@@ -1,0 +1,310 @@
+[
+  {
+    "id": "12797bf6-1932-452f-854d-084805539052",
+    "ts": "2025-10-21T16:26:23",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6085177063941956,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6085177063941956,
+        "description": ""
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5726528167724609,
+        "description": ""
+      },
+      {
+        "label": "Consolidation",
+        "confidence": 0.534195065498352,
+        "description": ""
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/static/heatmaps/20251021_162623_659820.jpg",
+    "original_url": "http://localhost:8000/static/originals/20251021_162623_555279.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ac7fd797-ceb4-4e78-bed3-35f1bf2ae24c",
+    "ts": "2025-10-21T16:43:38",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads\\heatmap_1761036218.jpg",
+    "original_url": "http://localhost:8000/uploads\\original_6e69c505df144859a6cac60dd6fb6d9a.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "0ea11174-9de9-4f49-8f55-21765c1d0f8a",
+    "ts": "2025-10-21T16:46:15",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads\\heatmap_1761036375.jpg",
+    "original_url": "http://localhost:8000/uploads\\original_c8ce4b8ec21e4b71a71b034da97de3f4.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "3d9a6061-487b-41d7-8aac-97836c5a867a",
+    "ts": "2025-10-21T16:52:54",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads\\heatmap_1761036774.jpg",
+    "original_url": "http://localhost:8000/uploads\\original_7e55ababc7bd4c689cd1190343e302b9.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "a0c83da7-fe60-4236-a0d8-e3beafa1e372",
+    "ts": "2025-10-21T16:55:33",
+    "file_name": "patient00029_study1_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads\\heatmap_1761036933.jpg",
+    "original_url": "http://localhost:8000/uploads\\original_c4ec9b6c6ac24d8fac071cf382dea8d3.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "2c1e6bde-799e-450f-b03c-e8125868ee62",
+    "ts": "2025-10-21T16:58:12",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761037092.jpg",
+    "original_url": "http://localhost:8000/uploads/original_a243322ecb664502a626e1fef20440cc.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "03957d2c-d34b-436c-b1c7-00aed8d4e291",
+    "ts": "2025-10-21T17:03:19",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761037399.jpg",
+    "original_url": "http://localhost:8000/uploads/original_6c35106d4efa47d1972299036833ab38.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "f8cfd004-54ed-4206-b503-2b715d016645",
+    "ts": "2025-10-21T17:04:43",
+    "file_name": "patient00064_study1_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761037483.jpg",
+    "original_url": "http://localhost:8000/uploads/original_1a1d132adeaf44d5a14841e85e694a70.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "17500fe8-83d3-4e6d-8673-3a131f5116ec",
+    "ts": "2025-10-21T17:06:28",
+    "file_name": "patient00245_study1_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761037588.jpg",
+    "original_url": "http://localhost:8000/uploads/original_a511b3354cdf42cb9760a64478865008.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "23d4035f-8d9f-4060-b017-e4bd7d741e61",
+    "ts": "2025-10-21T17:08:29",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761037709.jpg",
+    "original_url": "http://localhost:8000/uploads/original_4768bbd40b1f4a36a1adb1df249c983c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "60ca8ea4-63f0-4ec6-af5c-04b50b18e58c",
+    "ts": "2025-10-21T17:14:24",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761038064.jpg",
+    "original_url": "http://localhost:8000/uploads/original_8953319116ce4ca7ae0e1d3e77ae4ab9.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  }
+]

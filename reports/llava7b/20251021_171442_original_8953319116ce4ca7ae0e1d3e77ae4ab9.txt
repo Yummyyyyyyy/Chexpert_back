@@ -1,0 +1,10 @@
+================================================================================
+LLaVA-7B Medical Report
+================================================================================
+Generated: 2025-10-21 17:14:42
+Image: uploads/original_8953319116ce4ca7ae0e1d3e77ae4ab9.jpg
+================================================================================
+
+IMPRESSSION: 1. NO EVIDENCE OF ACUTE CARDIOPULMONARY DISEASE. FINDINGS SHOW A NORMAL APPEARANCE OF THE PLEURAL AND MEDIASTINAL WALL. SUMMARY: 1 NO SIGNIFICANT ABNORMALITY. __________________________________
+
+================================================================================
