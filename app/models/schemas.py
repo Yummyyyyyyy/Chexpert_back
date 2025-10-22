@@ -3,7 +3,7 @@
 定义API请求和响应的数据结构
 """
 from pydantic import BaseModel
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 
 # ============ 图像分析相关模型 ============
@@ -61,3 +61,14 @@ class Llava7bReportRequest(BaseModel):
     prompt: Optional[str] = None  # 自定义提示词（可选）
     support_info: Optional[str] = None  # 分类结果支持信息（可选，已弃用，改用pathology_labels）
     pathology_labels: Optional[List[str]] = None  # 病症标签列表（前端传入Top3）
+
+
+# ============ GLM-4V + RAG 报告生成相关模型 ============
+class Glm4vRagReportRequest(BaseModel):
+    """GLM-4V + RAG 报告生成请求"""
+    image_path: str
+    prompt: Optional[str] = None
+    pathology_labels: Optional[List[str]] = None
+    rag_query: Optional[str] = None  # 可选，检索的查询语句
+    top_k: Optional[int] = 5  # 可选，检索返回片段数量
+    classifier_probs: Optional[Dict[str, float]] = None  # 可选，分类器标签-置信度映射

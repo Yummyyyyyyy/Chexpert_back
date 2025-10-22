@@ -76,6 +76,22 @@ class Settings(BaseSettings):
     LLAVA_7B_API_URL: str = "https://outwardly-electromotive-lady.ngrok-free.dev/inference"  # LLAVA-7B API 地址
     # 示例: LLAVA_7B_API_URL = "https://outwardly-electromotive-lady.ngrok-free.dev/inference"
     
+    # ============ GLM-4V + RAG 配置（模板）============
+    GLM4V_API_URL: Optional[str] = None  # 可选：GLM-4V 远程推理服务地址
+    RAG_INDEX_PATH: Optional[str] = None  # 可选：RAG 索引路径
+    RAG_EMBEDDING_MODEL: Optional[str] = None  # 可选：RAG 向量模型标识
+    # 细化的 RAG 相关配置（建议使用这些键）
+    RAG_KB_DIR: Optional[str] = "data/rag/kb_idx"          # 数据集知识库索引目录（faiss.index, id_map.pkl）
+    RAG_FACTS_PATH: Optional[str] = "data/rag/kb_out/reports_facts.jsonl"      # 数据集 facts 文件（reports_facts.jsonl）
+    RAG_WIKI_IDX: Optional[str] = "data/rag/wiki_idx"        # Wikipedia 索引目录（faiss.index, id_map.pkl, chunks.jsonl）
+    RAG_ENCODER: str = "sentence-transformers/all-MiniLM-L6-v2"
+    RAG_WIKI_TOPK: int = 4
+
+    # ZhipuAI / GLM-4V 推理配置
+    ZHIPU_API_KEY: Optional[str] = "40d798ccb4be4b831fc4a888157901b3.LGSlWMupGDXhmw0f"
+    GLM4V_MODEL: str = "glm-4v-flash"
+    GLM4V_TEMPERATURE: float = 0.2
+    
     # ============ 第三方API配置 ============
     # 【TODO】团队成员需要添加实际的API密钥
     THIRD_PARTY_API_URL: Optional[str] = None  # 知识图谱API地址

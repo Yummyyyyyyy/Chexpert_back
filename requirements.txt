@@ -10,14 +10,14 @@ pydantic-settings==2.1.0
 # 深度学习框架 (用于本地模型推理 - DenseNet121 病症分类)
 torch==2.2.2
 torchvision==0.17.2
-# 安装时使用: pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
+# 安装时使�? pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
 
 # 图像处理
 Pillow==10.1.0
 opencv-python==4.8.1.78
 numpy==1.24.3
 
-# HTTP客户端（调用第三方API）
+# HTTP客户端（调用第三方API�?
 httpx==0.25.1
 requests==2.31.0
 
@@ -31,7 +31,7 @@ python-dotenv==1.0.0
 # 日志
 loguru==0.7.2
 
-# CORS支持（前后端分离必需）
+# CORS支持（前后端分离必需�?
 # fastapi已内置，无需额外安装
 
 # 测试
@@ -42,3 +42,5 @@ httpx==0.25.1  # 用于测试API
 # 其他工具
 python-jose[cryptography]==3.3.0  # JWT认证（如果需要）
 passlib[bcrypt]==1.7.4  # 密码加密（如果需要）
+
+zhipuai>=2.0.0
