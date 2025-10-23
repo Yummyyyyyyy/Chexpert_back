@@ -1,109 +1,208 @@
 """
-热力图生成器
-基于Grad-CAM或类似技术生成疾病区域热力图
+Heatmap generator that wraps the shared CheXpert DenseNet model.
 """
-from loguru import logger
-from typing import List, Tuple
-import os
-import time
+from __future__ import annotations
 
+import asyncio
+import os
+import threading
+import time
+from typing import Dict, Iterable, List, Tuple
+
+from io import BytesIO
+
+from loguru import logger
+from PIL import Image
+import pydicom
+from pydicom.pixel_data_handlers.util import apply_voi_lut
+
+from app.chex_model import init_model as chex_init_model, infer as chex_infer
 from app.config import settings
 from app.models.schemas import ClassificationResult
+from app.pathology_model import PathologyClassifier
+
+# Keep class names aligned with the CheXpert training labels.
+CHEXPERT_CLASS_NAMES: List[str] = [
+    "No Finding",
+    "Enlarged Cardiomediastinum",
+    "Cardiomegaly",
+    "Lung Lesion",
+    "Lung Opacity",
+    "Edema",
+    "Consolidation",
+    "Pneumonia",
+    "Atelectasis",
+    "Pneumothorax",
+    "Pleural Effusion",
+    "Pleural Other",
+    "Fracture",
+    "Support Devices",
+]
+
+# Reuse the optional human readable descriptions maintained by the pathology model.
+LABEL_TRANSLATIONS: Dict[str, str] = getattr(
+    PathologyClassifier, "LABEL_TRANSLATIONS", {}
+)
+
+# Default inference parameters consistent with chex_model.infer defaults.
+DEFAULT_THRESHOLD = 0.5
+DEFAULT_ALPHA = 0.45
+
+
+def _bytes_to_pil(data: bytes) -> Image.Image:
+    """
+    Decode raw bytes into a PIL image with the same DICOM handling as app.main._read_to_pil.
+    """
+    try:
+        ds = pydicom.dcmread(BytesIO(data))
+        arr = apply_voi_lut(ds.pixel_array, ds)
+        if getattr(ds, "PhotometricInterpretation", "") == "MONOCHROME1":
+            arr = 255 - arr
+        return Image.fromarray(arr).convert("RGB")
+    except Exception:
+        return Image.open(BytesIO(data)).convert("RGB")
 
 
 class HeatmapGenerator:
     """
-    热力图生成器类
-
-    【TODO - 后端团队成员需要实现】:
-    1. 实现Grad-CAM或其他可视化算法
-    2. 整合分类模型，同时输出分类结果和热力图
-    3. 优化热力图颜色映射，提高可读性
-    4. 添加多个热力图叠加功能（如果检测到多种疾病）
+    Provide classification scores and Grad-CAM heatmaps via the shared chex_model module.
+    The DenseNet weights are large, so we initialise them only once per process.
     """
 
-    def __init__(self):
-        # 【TODO】这里可以加载模型或初始化可视化工具
-        pass
+    _init_lock = threading.Lock()
+    _model_ready = False
+
+    def __init__(self) -> None:
+        self._ensure_model_loaded()
+
+    def _ensure_model_loaded(self) -> None:
+        """Initialise chex_model once and cache the global module state."""
+        if HeatmapGenerator._model_ready:
+            return
+
+        with HeatmapGenerator._init_lock:
+            if HeatmapGenerator._model_ready:
+                return
+
+            weights_path = settings.MODEL_PATH
+            if not os.path.exists(weights_path):
+                raise FileNotFoundError(
+                    f"CheXpert weight file not found: {weights_path}"
+                )
+
+            chex_init_model(
+                model_path=weights_path,
+                class_names=CHEXPERT_CLASS_NAMES,
+                device="cpu",
+                use_imagenet_norm=False,
+            )
+
+            HeatmapGenerator._model_ready = True
+            logger.info("CheXpert model initialised successfully.")
 
     async def generate(self, image_path: str) -> Tuple[str, List[ClassificationResult]]:
         """
-        生成热力图和分类结果
-
-        参数:
-            image_path: 原始图片路径
-
-        返回:
-            (heatmap_path, classifications): 热力图路径和分类结果列表
-
-        【TODO】后端团队成员实现:
-        ```python
-        import torch
-        import cv2
-        from pytorch_grad_cam import GradCAM
-
-        # 1. 加载图像
-        image = cv2.imread(image_path)
-
-        # 2. 模型推理 + Grad-CAM
-        model = model_manager.get_classification_model()
-        cam = GradCAM(model=model, target_layers=[model.layer4])
-        grayscale_cam = cam(input_tensor=image_tensor)
-
-        # 3. 生成热力图
-        heatmap = cv2.applyColorMap(np.uint8(255 * grayscale_cam), cv2.COLORMAP_JET)
-        output = cv2.addWeighted(image, 0.5, heatmap, 0.5, 0)
-
-        # 4. 保存热力图
-        heatmap_path = save_heatmap(output)
-
-        # 5. 获取分类结果
-        classifications = extract_classifications(model_output)
-
-        return heatmap_path, classifications
-        ```
+        Run inference asynchronously and return the heatmap path plus model predictions.
         """
-        logger.warning("⚠️  热力图生成逻辑待实现 (heatmap_generator.py:60)")
+        if not os.path.exists(image_path):
+            raise FileNotFoundError(f"Input image does not exist: {image_path}")
 
-        # ============ 以下是模拟代码，供前端调试使用 ============
-        # 【后端团队成员需要替换为真实实现】
+        heatmap_path, results = await asyncio.to_thread(
+            self._run_inference, image_path
+        )
+        return heatmap_path, results
 
-        # 模拟处理时间
-        await self._simulate_processing()
+    def _run_inference(self, image_path: str) -> Tuple[str, List[ClassificationResult]]:
+        """
+        Actual inference body executed inside a worker thread.
+        """
+        pil_image = self._load_image_with_dicom_support(image_path)
 
-        # 模拟保存热力图（实际应该生成真实热力图）
-        heatmap_filename = f"heatmap_{int(time.time())}.jpg"
-        heatmap_full_path = os.path.join(settings.UPLOAD_DIR, heatmap_filename)
+        infer_output = chex_infer(
+            image=pil_image,
+            generate_heatmap=True,
+            threshold=DEFAULT_THRESHOLD,
+            alpha=DEFAULT_ALPHA,
+            return_top_k=None,
+        )
 
-        # 返回相对于uploads目录的路径（供前端访问）
-        heatmap_path = heatmap_filename  # 只返回文件名
+        heatmap_path = self._save_heatmap_if_needed(
+            infer_output.get("heatmap"), image_path
+        )
+        classifications = self._build_classifications(infer_output)
+        logger.info(f"Top-3 probs: {sorted(infer_output['probs'].items(), key=lambda kv: kv[1], reverse=True)[:3]}")
+        return heatmap_path, classifications
 
-        # 【TODO】替换为真实的热力图生成代码
-        logger.info(f"💡 模拟生成热力图: {heatmap_full_path}")
+    def _load_image_with_dicom_support(self, image_path: str) -> Image.Image:
+        """
+        Load image bytes and convert to PIL.Image with DICOM specific handling.
+        """
+        with open(image_path, "rb") as fh:
+            data = fh.read()
+        return _bytes_to_pil(data)
 
-        # 模拟分类结果（CheXpert常见疾病类别）
-        # 【TODO】替换为真实模型输出
-        mock_classifications = [
-            ClassificationResult(
-                label="Cardiomegaly",
-                confidence=0.87,
-                description="心脏肥大"
-            ),
-            ClassificationResult(
-                label="Edema",
-                confidence=0.65,
-                description="肺水肿"
-            ),
-            ClassificationResult(
-                label="No Finding",
-                confidence=0.12,
-                description="未发现异常"
+    def _save_heatmap_if_needed(
+        self, heatmap_image: Image.Image | None, fallback_path: str
+    ) -> str:
+        """
+        Persist the generated heatmap into the uploads directory.
+        When the model fails to produce a heatmap we fall back to the original file.
+        """
+        if heatmap_image is None:
+            logger.warning(
+                "CheXpert inference returned no heatmap; falling back to original image."
             )
-        ]
+            return fallback_path
 
-        return heatmap_path, mock_classifications
+        os.makedirs(settings.UPLOAD_DIR, exist_ok=True)
+        filename = f"heatmap_{int(time.time() * 1000)}.jpg"
+        full_path = os.path.join(settings.UPLOAD_DIR, filename)
+        try:
+            heatmap_image.save(full_path, format="JPEG")
+            logger.info("Heatmap saved to {}", full_path)
+            return full_path
+        except Exception as exc:  # pragma: no cover - best effort logging
+            logger.error(
+                "Failed to save heatmap ({}); returning original image path.", exc
+            )
+            return fallback_path
 
-    async def _simulate_processing(self):
-        """模拟处理耗时"""
-        import asyncio
-        await asyncio.sleep(0.5)  # 模拟推理耗时
+    def _build_classifications(
+        self, infer_output: Dict
+    ) -> List[ClassificationResult]:
+        """
+        Construct the API-friendly classification response list.
+        We prioritise positive findings; fall back to the highest probabilities otherwise.
+        """
+        positives = infer_output.get("positive_findings") or []
+        items: Iterable[Dict]
+        if positives:
+            items = positives
+        else:
+            probs = infer_output.get("probs") or {}
+            items = (
+                {"label": label, "confidence": float(prob)}
+                for label, prob in sorted(
+                    probs.items(), key=lambda kv: kv[1], reverse=True
+                )
+            )
+
+        results: List[ClassificationResult] = []
+        for item in items:
+            label = item.get("label")
+            confidence = float(item.get("confidence", 0.0))
+            if not label:
+                continue
+            description = LABEL_TRANSLATIONS.get(label)
+            results.append(
+                ClassificationResult(
+                    label=label,
+                    confidence=confidence,
+                    description=description,
+                )
+            )
+
+        if not results:
+            logger.warning("CheXpert inference returned no usable classification results.")
+
+        return results

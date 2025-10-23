@@ -71,8 +71,17 @@ def init_model(
     else:
         assert len(class_names) == num_classes, "class_names 长度与权重类别数不一致"
 
+    # 统一权重键前缀，兼容 "densenet121." / "module." 等保存格式
+    normalized_state = {}
+    for key, value in state_dict.items():
+        new_key = key
+        for prefix in ("densenet121.", "model.", "module."):
+            if new_key.startswith(prefix):
+                new_key = new_key[len(prefix):]
+        normalized_state[new_key] = value
+
     model = _build_densenet121(num_classes)
-    missing, unexpected = model.load_state_dict(state_dict, strict=False)
+    missing, unexpected = model.load_state_dict(normalized_state, strict=False)
     if missing or unexpected:
         print(f"[chex_model] load_state_dict 提示 missing={missing} unexpected={unexpected}")
 
