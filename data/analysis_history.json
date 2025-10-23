@@ -306,5 +306,3847 @@
     "original_url": "http://localhost:8000/uploads/original_8953319116ce4ca7ae0e1d3e77ae4ab9.jpg",
     "status": "completed",
     "source": "chexpert"
+  },
+  {
+    "id": "ad669799-7e11-40a2-ae65-049c4d9ab3b7",
+    "ts": "2025-10-22T00:36:09",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761064569.jpg",
+    "original_url": "http://localhost:8000/uploads/original_33a16471ff6b43e7a57190ac0635332a.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "17de7445-8e5b-479f-b7f0-575df35ac153",
+    "ts": "2025-10-22T00:37:09",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761064629.jpg",
+    "original_url": "http://localhost:8000/uploads/original_b2db53fc96b44e35917be7860f978ee6.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "2a0ac912-2420-43ae-bb31-f0bc2396892a",
+    "ts": "2025-10-22T00:37:18",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761064638.jpg",
+    "original_url": "http://localhost:8000/uploads/original_ee7158a49fc94d25afa2c4ad6b26131f.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "942daa4f-7f29-41f8-8019-f37c9ae50804",
+    "ts": "2025-10-22T11:21:26",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761103286.jpg",
+    "original_url": "http://localhost:8000/uploads/original_3c38e867dcd946a88e30446f55f3449c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ef0d907f-d4f1-4483-858e-74cdb92dfda5",
+    "ts": "2025-10-22T11:36:34",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761104194.jpg",
+    "original_url": "http://localhost:8000/uploads/original_91032a91101447bf8d5640c7f3e2fecc.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "43578855-cc57-4785-9258-8cb4674d1d3d",
+    "ts": "2025-10-22T11:47:11",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761104831.jpg",
+    "original_url": "http://localhost:8000/uploads/original_0dabfb824d404addb2c0a1f52291c124.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "72cacb64-36b1-4455-a775-36470c1330b7",
+    "ts": "2025-10-22T12:15:31",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761106531.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c6d19faa87154b6e80a5de53d9cf17c4.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "cb432a36-ccfb-41e6-961f-880c5b2ead65",
+    "ts": "2025-10-22T12:17:44",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761106664.jpg",
+    "original_url": "http://localhost:8000/uploads/original_88726cce5a4041baaea781755d7a7ba0.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ff82131b-5116-4fcd-b50d-fabb4d242fac",
+    "ts": "2025-10-22T13:29:16",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761110956.jpg",
+    "original_url": "http://localhost:8000/uploads/original_dfc74de0d9a94ab2a71279adc3e503a1.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ca032c66-bd69-4bd9-8f16-4dcd3260e229",
+    "ts": "2025-10-22T13:46:31",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761111991.jpg",
+    "original_url": "http://localhost:8000/uploads/original_33bca62aa6604ba1830e538ba902cfba.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "886ac290-9c7e-4412-992a-b64117862577",
+    "ts": "2025-10-22T14:02:40",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761112960.jpg",
+    "original_url": "http://localhost:8000/uploads/original_bb3c66870d264582a84054852fbd3b7c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "f0087d28-deb1-4289-8ae1-419f4f980eec",
+    "ts": "2025-10-22T14:45:03",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761115503.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c2e1dad72a0245e3907de843024f9022.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b2c614b2-7571-4c4e-9be9-e06c4c5cddd3",
+    "ts": "2025-10-22T14:47:36",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761115656.jpg",
+    "original_url": "http://localhost:8000/uploads/original_d745ca5b3efa4304ba1a5b8072907d0b.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "24dbec42-f9c3-46e3-bb30-b5fca9318944",
+    "ts": "2025-10-22T14:50:34",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761115834.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f29fd85c8fea4b078460d125020b6e13.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "f2b0d4af-7859-499a-8d5d-98f74dbfe193",
+    "ts": "2025-10-22T16:12:28",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761120748.jpg",
+    "original_url": "http://localhost:8000/uploads/original_cfd79438f3e54c1187dff1dedd1bb1a2.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ea6a0ef9-a165-4527-b430-ce2823b847e5",
+    "ts": "2025-10-22T16:20:18",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761121218.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f98482481b1b4e75b47fcea0d119251e.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "2e01f587-f534-40bc-adc7-2792912167f1",
+    "ts": "2025-10-22T16:31:31",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761121891.jpg",
+    "original_url": "http://localhost:8000/uploads/original_5aeaf413540e495582bd7dab6ca21a31.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "a2ce4a85-371d-449e-baa1-5f7925799b75",
+    "ts": "2025-10-22T16:38:04",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761122284.jpg",
+    "original_url": "http://localhost:8000/uploads/original_0cbfc67991cb47cc95de92a20433a7bc.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b1af8a27-3b70-4ac6-843f-f58c27b4e66a",
+    "ts": "2025-10-22T17:49:19",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761126559.jpg",
+    "original_url": "http://localhost:8000/uploads/original_72c4000f40464bb5b618fca7221ee739.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "576658db-028f-4628-8c3d-352fefb5752c",
+    "ts": "2025-10-22T18:01:18",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761127278.jpg",
+    "original_url": "http://localhost:8000/uploads/original_9e9defff79744ec0baf75bc28edf8ee4.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b5ea825e-9644-4832-83df-b99ef26c00ac",
+    "ts": "2025-10-22T19:39:59",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761133199.jpg",
+    "original_url": "http://localhost:8000/uploads/original_a7fd48cdba7e4e3cb3aff5819ed2d548.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "efc8e6ff-3a9c-4472-b6f2-635f32d828fb",
+    "ts": "2025-10-22T19:44:26",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761133466.jpg",
+    "original_url": "http://localhost:8000/uploads/original_4533a5dc53d1432f8c838c94976c8bed.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "4904f588-c9c2-4903-a771-d045e40eb9ed",
+    "ts": "2025-10-22T19:58:44",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761134324.jpg",
+    "original_url": "http://localhost:8000/uploads/original_9ae885911a2b4c218678219cd05563a3.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "de4072d3-a5a5-43c2-b079-a4e88baf9a42",
+    "ts": "2025-10-22T20:18:42",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761135522.jpg",
+    "original_url": "http://localhost:8000/uploads/original_17aae26ad3ee4dd89f2a125081bdc2fb.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b80a0a27-f3c1-45e8-bf4c-9bc7c2bdd357",
+    "ts": "2025-10-22T20:18:45",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761135525.jpg",
+    "original_url": "http://localhost:8000/uploads/original_de00fb3716164f12a5ae3364a9fdac38.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "e1e18ce8-4e48-43b8-b8c7-51445e543395",
+    "ts": "2025-10-22T20:39:23",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761136763.jpg",
+    "original_url": "http://localhost:8000/uploads/original_69b2e611880d455988f6b3a99b5d0263.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ce2c5281-e1c7-45be-a3a8-39c20f71234f",
+    "ts": "2025-10-22T20:51:32",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761137492.jpg",
+    "original_url": "http://localhost:8000/uploads/original_b38a9ed735b94eb184dc3280cea9765c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "880ebb25-a3fc-4563-90b2-c4b82bd0b051",
+    "ts": "2025-10-22T21:19:22",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139162.jpg",
+    "original_url": "http://localhost:8000/uploads/original_8db923d74c31458988bfa70943355603.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b1887ac7-a836-462a-ac44-e469a7400a02",
+    "ts": "2025-10-22T21:19:36",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139176.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c4245fb4a0de4a1391676d474510fb72.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "0072a91e-de54-4824-bd74-c92d70ff0748",
+    "ts": "2025-10-22T21:20:04",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139204.jpg",
+    "original_url": "http://localhost:8000/uploads/original_e9dfe89b0aa7404ebc04998df0f45fd4.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "0d655633-f9dc-47a8-914f-c13fc8596c55",
+    "ts": "2025-10-22T21:21:44",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139304.jpg",
+    "original_url": "http://localhost:8000/uploads/original_26706623440c41189dabb3c400bea059.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "9891c000-9763-4b23-85d3-8e44197a971f",
+    "ts": "2025-10-22T21:24:12",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139452.jpg",
+    "original_url": "http://localhost:8000/uploads/original_dcefb09493ef43ffb22bfdd29bb95c8a.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "42219baf-aa25-4721-a128-6d32ab57b160",
+    "ts": "2025-10-22T21:24:45",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139485.jpg",
+    "original_url": "http://localhost:8000/uploads/original_9dd9a316e1b74f409ebdbb81ea8b7031.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "1afbb90d-0a11-48cd-9fc9-5b378866a681",
+    "ts": "2025-10-22T21:25:41",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139541.jpg",
+    "original_url": "http://localhost:8000/uploads/original_ba500fc9edd740a0843b741d3b8614cf.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "bd8eeae3-e51c-4d54-a6b7-905a513f00bf",
+    "ts": "2025-10-22T21:26:52",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139612.jpg",
+    "original_url": "http://localhost:8000/uploads/original_6ca62076524741929b704193ee00ce3f.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "aaecb5fb-df53-4e4b-838f-813c97903ba1",
+    "ts": "2025-10-22T21:28:00",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139680.jpg",
+    "original_url": "http://localhost:8000/uploads/original_45bee8c09c6744e5a53f9a0e8aad2237.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ba7959ff-1f61-4318-b33f-04cba3bda7a4",
+    "ts": "2025-10-22T21:28:19",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139699.jpg",
+    "original_url": "http://localhost:8000/uploads/original_8fd39ef597e84ef7be62086e11a84350.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "c0f9e27d-5c2d-4ef0-80d0-6616b5767ef0",
+    "ts": "2025-10-22T21:29:11",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761139751.jpg",
+    "original_url": "http://localhost:8000/uploads/original_1882d7c722174f7b84bb6f07a14db23d.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "cbb2bf89-54a3-424e-a5da-39812cd42c9f",
+    "ts": "2025-10-22T21:42:14",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761140534.jpg",
+    "original_url": "http://localhost:8000/uploads/original_ab0573c0fdfb40009daa4f0f45f0da34.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "4dc6fe2a-2733-45a0-bf33-ac0557aa5d11",
+    "ts": "2025-10-22T23:06:42",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761145602.jpg",
+    "original_url": "http://localhost:8000/uploads/original_830afe9e24294422ac41f033b614fd78.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "c7484a4f-3d26-48db-b54f-49287433906f",
+    "ts": "2025-10-22T23:25:40",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761146740.jpg",
+    "original_url": "http://localhost:8000/uploads/original_5f455bc5b2fd47a2bad8c1ab6ef48430.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "324d7a83-cabc-4641-8ea7-332ae4b4f15d",
+    "ts": "2025-10-23T00:09:19",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761149359.jpg",
+    "original_url": "http://localhost:8000/uploads/original_d6f7603caa4e44589503dfba1a1e484d.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "9d2fd56e-df2b-41bc-a087-3b800485cf2d",
+    "ts": "2025-10-23T00:10:49",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761149449.jpg",
+    "original_url": "http://localhost:8000/uploads/original_ded6b674f750486896798fbd5907afda.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "106374a8-8ff2-461c-9c57-b7219668a4e1",
+    "ts": "2025-10-23T00:11:08",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761149468.jpg",
+    "original_url": "http://localhost:8000/uploads/original_e999662a1faa4f6cb2bc021f7c829d70.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "2043d3c4-141c-4c54-8267-7df88cb4cb20",
+    "ts": "2025-10-23T10:46:44",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761187604.jpg",
+    "original_url": "http://localhost:8000/uploads/original_57229bc0a23e4b94aab5177e6b399939.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "7df07a22-bf18-4317-8eb7-043f1e5cf154",
+    "ts": "2025-10-23T11:01:43",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.87,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.87,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.65,
+        "description": "肺水肿"
+      },
+      {
+        "label": "No Finding",
+        "confidence": 0.12,
+        "description": "未发现异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761188503.jpg",
+    "original_url": "http://localhost:8000/uploads/original_36dc996e65004ad88aa1001299c54d6d.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "18afde51-d486-4cbc-9b9d-a9e7e1de7a6d",
+    "ts": "2025-10-23T11:02:16",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6125622987747192,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6125622987747192,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.609623908996582,
+        "description": "肺不张"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5946864485740662,
+        "description": "肺部不透明"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_7daa03790dc1469c8c9ba6b35e89d609_20251023_110216.jpg",
+    "original_url": "http://localhost:8000/uploads/original_7daa03790dc1469c8c9ba6b35e89d609.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "2efa507d-856d-44d2-929f-8001f01a83b0",
+    "ts": "2025-10-23T11:02:47",
+    "file_name": "view1_frontal.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6130216717720032,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6130216717720032,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.6089097261428833,
+        "description": "肺不张"
+      },
+      {
+        "label": "Fracture",
+        "confidence": 0.5915696620941162,
+        "description": "骨折"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_f27805e062ad43cdabeb977cfcfff38c_20251023_110247.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f27805e062ad43cdabeb977cfcfff38c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "acbdf1cf-f301-4ecd-9f49-e34bb676a8a5",
+    "ts": "2025-10-23T11:03:30",
+    "file_name": "view1_frontal.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6142309904098511,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6142309904098511,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.6108980178833008,
+        "description": "肺不张"
+      },
+      {
+        "label": "Fracture",
+        "confidence": 0.5967457890510559,
+        "description": "骨折"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_6c09fc9370fb493590ff9e79652c4e9b_20251023_110330.jpg",
+    "original_url": "http://localhost:8000/uploads/original_6c09fc9370fb493590ff9e79652c4e9b.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ea281f2a-bdf4-493a-bcc6-cc1097a2f4bb",
+    "ts": "2025-10-23T11:03:58",
+    "file_name": "view1_frontal.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6201817989349365,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6201817989349365,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.6181186437606812,
+        "description": "肺不张"
+      },
+      {
+        "label": "Fracture",
+        "confidence": 0.5923934578895569,
+        "description": "骨折"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_c42ab6a2617042f58ac82183932d5e40_20251023_110358.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c42ab6a2617042f58ac82183932d5e40.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "c288a2e4-1f74-415a-8717-3749c8b1141f",
+    "ts": "2025-10-23T11:12:05",
+    "file_name": "view1_frontal.jpg",
+    "top1": "No Finding",
+    "confidence": 0.612384557723999,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.612384557723999,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.6104027628898621,
+        "description": "肺不张"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5860844254493713,
+        "description": "肺部不透明"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_f1f9635b0f82424990b13c6a7f7db5c9_20251023_111205.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f1f9635b0f82424990b13c6a7f7db5c9.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "13aa4b9c-601b-4f99-b8bb-6d45a283b089",
+    "ts": "2025-10-23T11:12:15",
+    "file_name": "view1_frontal.jpg",
+    "top1": "No Finding",
+    "confidence": 0.612384557723999,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.612384557723999,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.6104027628898621,
+        "description": "肺不张"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5860844254493713,
+        "description": "肺部不透明"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_d50a69fbf8c04886a7fc737cc67f1cc0_20251023_111215.jpg",
+    "original_url": "http://localhost:8000/uploads/original_d50a69fbf8c04886a7fc737cc67f1cc0.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "5bb54419-b1fe-43bb-8b51-e12046bae165",
+    "ts": "2025-10-23T11:12:27",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6125622987747192,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6125622987747192,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.609623908996582,
+        "description": "肺不张"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5946864485740662,
+        "description": "肺部不透明"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_b3b1657dbabf4cec86b2e568154b8932_20251023_111227.jpg",
+    "original_url": "http://localhost:8000/uploads/original_b3b1657dbabf4cec86b2e568154b8932.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b3b8067a-33b0-48a8-bf15-f74f874cc89d",
+    "ts": "2025-10-23T11:12:49",
+    "file_name": "view1_frontal.jpg",
+    "top1": "No Finding",
+    "confidence": 0.61189204454422,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.61189204454422,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.6064510345458984,
+        "description": "肺不张"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5943793058395386,
+        "description": "肺部不透明"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_46e87100f01b4f6f9af4957274b7863c_20251023_111248.jpg",
+    "original_url": "http://localhost:8000/uploads/original_46e87100f01b4f6f9af4957274b7863c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "11c4f1eb-d348-4eba-b269-b2843ee17705",
+    "ts": "2025-10-23T11:13:17",
+    "file_name": "view1_frontal.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6133849024772644,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6133849024772644,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.610840380191803,
+        "description": "肺不张"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5933157205581665,
+        "description": "肺部不透明"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_original_ae5596d2f2f148e8900f2b34836d0118_20251023_111317.jpg",
+    "original_url": "http://localhost:8000/uploads/original_ae5596d2f2f148e8900f2b34836d0118.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "3f67d605-dddb-4e7f-8d8b-8f8dc90f1d65",
+    "ts": "2025-10-23T12:04:16",
+    "file_name": "view1_frontal.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6264339089393616,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6264339089393616,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5506448745727539,
+        "description": "肺部病变"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.5497848391532898,
+        "description": "胸腔积液"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192256974.jpg",
+    "original_url": "http://localhost:8000/uploads/original_d446635c4d3c4be59c7117331adcd80d.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "2747f341-5fd5-4a3f-9854-926035360edd",
+    "ts": "2025-10-23T12:04:43",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6264110207557678,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6264110207557678,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.5495943427085876,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5492067933082581,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192283835.jpg",
+    "original_url": "http://localhost:8000/uploads/original_80da162a5b7848a8bf94995aef924131.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "06cf6827-4407-4383-86fb-76a8fa870e16",
+    "ts": "2025-10-23T12:04:49",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "No Finding",
+    "confidence": 0.6264110207557678,
+    "diagnosis": [
+      {
+        "label": "No Finding",
+        "confidence": 0.6264110207557678,
+        "description": "未发现异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.5495943427085876,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5492067933082581,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192289740.jpg",
+    "original_url": "http://localhost:8000/uploads/original_8fed2fd59042460eadde7c53387078f2.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "867b7d43-47c4-42d7-8ed5-121e8f5d2e5b",
+    "ts": "2025-10-23T12:05:22",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7256814241409302,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7256814241409302,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6279270648956299,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5951087474822998,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192322356.jpg",
+    "original_url": "http://localhost:8000/uploads/original_bcb1a2042c4d492fb65e42018321daba.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b0ee5d3d-db7a-47de-a4f4-80c0ace976a2",
+    "ts": "2025-10-23T12:07:37",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7207628488540649,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7207628488540649,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6279272437095642,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5912559628486633,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192457317.jpg",
+    "original_url": "http://localhost:8000/uploads/original_bd2b3ac7d82a4f7085c15fdd2bba13a1.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "59c925c9-2555-4460-92f2-b415f19da0f5",
+    "ts": "2025-10-23T12:07:44",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7207628488540649,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7207628488540649,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6279272437095642,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5912559628486633,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192464101.jpg",
+    "original_url": "http://localhost:8000/uploads/original_68fe0755ac724ad7b9dd35be0d01dbc2.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "848aad45-2f89-4dd0-b755-11a4b28c39c8",
+    "ts": "2025-10-23T12:08:08",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7269067764282227,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7269067764282227,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.632477343082428,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5963898301124573,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192488593.jpg",
+    "original_url": "http://localhost:8000/uploads/original_8558fe8a34694475b5a62888959c2dbc.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "75d6bd18-ffec-4c29-9a42-c65960ae9b18",
+    "ts": "2025-10-23T12:08:20",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7133298516273499,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7133298516273499,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6203088760375977,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.590835690498352,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192500611.jpg",
+    "original_url": "http://localhost:8000/uploads/original_50f3e7777c504a9d9c077cbe946ca150.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "e3a5b863-3ad8-4cb1-84d1-9d4f87283e8a",
+    "ts": "2025-10-23T12:08:45",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7208079695701599,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7208079695701599,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.626063346862793,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5924104452133179,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192525595.jpg",
+    "original_url": "http://localhost:8000/uploads/original_86898537b32a4b8e808842f1a24f2513.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "a3ab9a10-0f39-4b44-af96-eb0ac4e58a1c",
+    "ts": "2025-10-23T12:09:00",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7234559059143066,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7234559059143066,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.627419650554657,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5951055884361267,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192540874.jpg",
+    "original_url": "http://localhost:8000/uploads/original_9231a760395e48e180d40f452c88ef66.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "96dee01e-5082-4ce0-9744-2184d83d394d",
+    "ts": "2025-10-23T12:09:33",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.709854781627655,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.709854781627655,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6201599836349487,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5862903594970703,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192573799.jpg",
+    "original_url": "http://localhost:8000/uploads/original_0bc9a8e13fbf458186c7756d1c4fe508.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b785a9f7-be69-49f0-9f5a-bec67b68c180",
+    "ts": "2025-10-23T12:09:40",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.709854781627655,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.709854781627655,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6201599836349487,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5862903594970703,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192580781.jpg",
+    "original_url": "http://localhost:8000/uploads/original_0af046eb26f344278fdee84262300193.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "3dec2c33-fa7c-4caa-8178-6cf2d1d43bd5",
+    "ts": "2025-10-23T12:10:57",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7207628488540649,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7207628488540649,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6279272437095642,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5912559628486633,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192657922.jpg",
+    "original_url": "http://localhost:8000/uploads/original_032f840725ba44d5845b14606669ef5e.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "546f6745-d7b8-4a15-a07f-239dde06dd5d",
+    "ts": "2025-10-23T12:11:14",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7253040075302124,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7253040075302124,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6284170150756836,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5982391238212585,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192674091.jpg",
+    "original_url": "http://localhost:8000/uploads/original_19720cae05a44c99940a6567bba20cd3.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "5ed3beb2-2160-4b89-a242-950157132a30",
+    "ts": "2025-10-23T12:12:36",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7201313376426697,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7201313376426697,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.625630259513855,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5936728715896606,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192756930.jpg",
+    "original_url": "http://localhost:8000/uploads/original_a46737049f464ac58488c9808490b575.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "9af401e1-cf5c-4be1-b6f6-90067d3edb0b",
+    "ts": "2025-10-23T12:12:41",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7201313376426697,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7201313376426697,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.625630259513855,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5936728715896606,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192761108.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f3c74aed35e844d6895581f33fda1687.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "0dc1df1e-cb42-4031-90b1-c335af8b8e50",
+    "ts": "2025-10-23T12:13:22",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7237604856491089,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7237604856491089,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6275083422660828,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5993307828903198,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192802008.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c07e5e72f48e4c99a111dcb28d05cfd8.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "e22ceaf4-2f1d-4b4d-94c7-fd3d934e1e89",
+    "ts": "2025-10-23T12:14:16",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7237604856491089,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7237604856491089,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6275083422660828,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5993307828903198,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192856115.jpg",
+    "original_url": "http://localhost:8000/uploads/original_536a8b1d3bbf43b0b234a26b2caffc20.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "62eec416-1280-4270-bd02-eb4b0e50dd0f",
+    "ts": "2025-10-23T12:15:27",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7133298516273499,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7133298516273499,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6203088760375977,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.590835690498352,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761192927399.jpg",
+    "original_url": "http://localhost:8000/uploads/original_ea48a64563a64cdeb0828a20041aa32d.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "abc0bc89-c3eb-4fb4-8c01-72106291c1dc",
+    "ts": "2025-10-23T12:18:21",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7207628488540649,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7207628488540649,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6279272437095642,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5912559628486633,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193101564.jpg",
+    "original_url": "http://localhost:8000/uploads/original_2da08c804546478bbea74f02034a4f0e.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "20ab3e5d-a206-404a-b57e-825b2af39fdd",
+    "ts": "2025-10-23T12:18:37",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.7044782042503357,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.7044782042503357,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.6184380054473877,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.585536003112793,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193117627.jpg",
+    "original_url": "http://localhost:8000/uploads/original_ebd75863470042eba93ae72d486580e6.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "e799f180-6f68-475a-b068-2bab81b95e64",
+    "ts": "2025-10-23T12:21:34",
+    "file_name": "view2_lateral.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6014368534088135,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6014368534088135,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5824289917945862,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5672942399978638,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193294886.jpg",
+    "original_url": "http://localhost:8000/uploads/original_9798671962a042e49fef56be7678fcbf.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "90cd7a28-d743-414b-a1c7-7c26b4e1c830",
+    "ts": "2025-10-23T12:21:57",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.605669379234314,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.605669379234314,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5887489318847656,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.577360987663269,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193317743.jpg",
+    "original_url": "http://localhost:8000/uploads/original_b7565f8b7a044ad6824e20c7f83a0bad.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "07bfd6f6-bac2-484f-a19f-38058d7b1ac7",
+    "ts": "2025-10-23T12:22:01",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.605669379234314,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.605669379234314,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5887489318847656,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.577360987663269,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193321289.jpg",
+    "original_url": "http://localhost:8000/uploads/original_cb42f86d9e5244b3b21c659e8bb489af.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "c4f5e38f-bff2-40fd-aabb-17219edacdd1",
+    "ts": "2025-10-23T12:22:18",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.5904605984687805,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.5904605984687805,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5780015587806702,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5682721734046936,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193338324.jpg",
+    "original_url": "http://localhost:8000/uploads/original_023e0b986d064632848626cd55fceaeb.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "01c8091d-3ecc-4436-b6ca-a2d2ccbeac2b",
+    "ts": "2025-10-23T12:23:02",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.605669379234314,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.605669379234314,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5887489318847656,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.577360987663269,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193382449.jpg",
+    "original_url": "http://localhost:8000/uploads/original_9cd1b746e2524082a0ef661fd355db62.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "482b6393-4004-45be-88b2-e7fc97e73123",
+    "ts": "2025-10-23T12:23:26",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.5938349366188049,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.5938349366188049,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5763599872589111,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.56798255443573,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193406741.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f673728b6acd4d69b94b62dc71b7216e.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "d3db1067-3ddf-4f21-b291-da624c8af13c",
+    "ts": "2025-10-23T12:23:56",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6032364964485168,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6032364964485168,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5813264846801758,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5756196975708008,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193436918.jpg",
+    "original_url": "http://localhost:8000/uploads/original_4b954e8dc1874056a50d82dde9bc8a5c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "72f6c1a2-d00c-46eb-80a9-f4a620ada438",
+    "ts": "2025-10-23T12:24:01",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6032364964485168,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6032364964485168,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5813264846801758,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5756196975708008,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193441371.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c4984436453144b7b238052eb62fec1c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "c043bc91-4c34-473d-8bd8-91659f9c66d1",
+    "ts": "2025-10-23T12:24:09",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6032364964485168,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6032364964485168,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5813264846801758,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5756196975708008,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193449392.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c0f745db94224b45b1cf6454899a8bc5.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "cedb69d5-c47c-48bd-83bc-b25b26ea1ef7",
+    "ts": "2025-10-23T12:24:52",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6003045439720154,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6003045439720154,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5874570608139038,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5722588896751404,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193492057.jpg",
+    "original_url": "http://localhost:8000/uploads/original_6948eb7c2552417eb1279bef9b599d04.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "26cd6178-8e2a-489d-957e-5ed2e683ac8e",
+    "ts": "2025-10-23T12:25:05",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.605051577091217,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.605051577091217,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.584734320640564,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5753264427185059,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193505243.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c2b04f04384a485aa966918c8d4ecb62.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "145ff425-26a6-4744-9782-fd81efafb6c9",
+    "ts": "2025-10-23T12:27:45",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6051186323165894,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6051186323165894,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5832087397575378,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5771381258964539,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193665745.jpg",
+    "original_url": "http://localhost:8000/uploads/original_df5ac43c138d49159b0e55607410e671.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "2ba7c582-ddcb-4d2b-8c29-1085425f9d79",
+    "ts": "2025-10-23T12:28:10",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6051186323165894,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6051186323165894,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5832087397575378,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5771381258964539,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193690325.jpg",
+    "original_url": "http://localhost:8000/uploads/original_81cb3342f3844fb6b7f6d9f5176e7c54.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "90640204-9b24-4381-b2e8-d4260fcb2e1e",
+    "ts": "2025-10-23T12:28:35",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.605051577091217,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.605051577091217,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.584734320640564,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5753264427185059,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193715474.jpg",
+    "original_url": "http://localhost:8000/uploads/original_609ac3b0c2fa4d529c9a517b32e62952.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b57e46ba-af8a-4928-8dca-c6d419351e9b",
+    "ts": "2025-10-23T12:28:41",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.605051577091217,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.605051577091217,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.584734320640564,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5753264427185059,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193721709.jpg",
+    "original_url": "http://localhost:8000/uploads/original_4c0f4597f549468693616d3e245b45e3.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "937628a6-8cb1-420c-a862-ab70d4ecdad5",
+    "ts": "2025-10-23T12:30:08",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6082340478897095,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6082340478897095,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5886059999465942,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.579628050327301,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193808323.jpg",
+    "original_url": "http://localhost:8000/uploads/original_677f5969977a45bdab1708c48b898c13.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "1a0c18d9-4311-4d89-88d8-0d11593444d3",
+    "ts": "2025-10-23T12:31:05",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.5938349366188049,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.5938349366188049,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5763599872589111,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.56798255443573,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193865638.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f0a172f4ab8c4bc3b55400015a701043.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "14bf0327-e54d-4b2a-8ef7-d9fc6973fe60",
+    "ts": "2025-10-23T12:32:32",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6051186323165894,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6051186323165894,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5832087397575378,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5771381258964539,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193952024.jpg",
+    "original_url": "http://localhost:8000/uploads/original_67c6d074c0ba413d9f06d611c10a07e0.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "87c93261-08b1-4247-a99f-16c464418616",
+    "ts": "2025-10-23T12:32:43",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6051186323165894,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6051186323165894,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5832087397575378,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5771381258964539,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761193963595.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c5ffcf51bfed4404a77842e90bc6f96e.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ade5347f-53fd-41b5-be86-9c78528369f8",
+    "ts": "2025-10-23T13:39:45",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Cardiomegaly",
+    "confidence": 0.6051186323165894,
+    "diagnosis": [
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.6051186323165894,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.5832087397575378,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5771381258964539,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761197985870.jpg",
+    "original_url": "http://localhost:8000/uploads/original_dace4d7f2ed44ddcb540fde6c0aa698c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "959e5ec4-08a5-48dc-b424-2f4ce922bb8a",
+    "ts": "2025-10-23T13:40:34",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5801007747650146,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5801007747650146,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5712529420852661,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5615411400794983,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198034457.jpg",
+    "original_url": "http://localhost:8000/uploads/original_0311425e65504c49a3c860e47c9a4362.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "12c67384-7e1e-4be9-a3ba-d2d745b08270",
+    "ts": "2025-10-23T13:47:15",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5827988386154175,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5827988386154175,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5693857669830322,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5588123202323914,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198435974.jpg",
+    "original_url": "http://localhost:8000/uploads/original_8d7e59a2418c420784977fb304884601.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "4b184e1e-1dbf-4c1e-acd7-f30a1f9f4ff9",
+    "ts": "2025-10-23T13:47:36",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5773114562034607,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5773114562034607,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.569236159324646,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5599733591079712,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198456185.jpg",
+    "original_url": "http://localhost:8000/uploads/original_37ea82b80dd6410a9e6d1d9f5ac83375.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "3ad33cb9-7d22-4f3d-a6cd-0af412e2b0a1",
+    "ts": "2025-10-23T13:47:41",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5773114562034607,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5773114562034607,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.569236159324646,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5599733591079712,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198461272.jpg",
+    "original_url": "http://localhost:8000/uploads/original_e4ddcee943db4d38a3655d257e8f98d5.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ec45cc04-2fb1-4a0c-b143-9bb36bbab943",
+    "ts": "2025-10-23T13:47:48",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5801007747650146,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5801007747650146,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5712529420852661,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5615411400794983,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198468617.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c8d20576c2094dec8d613e613ad66fcd.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "8483d57b-09df-4242-bcb2-140351791055",
+    "ts": "2025-10-23T13:47:59",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5799440145492554,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5799440145492554,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5703771710395813,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5603991746902466,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198479516.jpg",
+    "original_url": "http://localhost:8000/uploads/original_5f11349ad4ff4a5590b8c0649224eb32.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "446da3b5-2b63-4c85-a84d-3cf0cbb472d0",
+    "ts": "2025-10-23T13:48:13",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5826694965362549,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5826694965362549,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5688866376876831,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5598147511482239,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198493616.jpg",
+    "original_url": "http://localhost:8000/uploads/original_34382d53bd4f4c94914f26f79ca68452.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "f70cfd61-ddef-4bc6-b691-f7ff49d8c4e7",
+    "ts": "2025-10-23T13:48:34",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5801007747650146,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5801007747650146,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5712529420852661,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5615411400794983,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198514337.jpg",
+    "original_url": "http://localhost:8000/uploads/original_4b4fe89bcf214d0fb32934785b9a121c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "cabe3842-2b26-45be-85a5-3c781b40ebc2",
+    "ts": "2025-10-23T13:48:52",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5725199580192566,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5725199580192566,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5648921728134155,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5563644170761108,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761198532645.jpg",
+    "original_url": "http://localhost:8000/uploads/original_808158e7f9d74533bbde1e8d36551055.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "8e2cdcb0-8704-454f-acb7-74a8c17eeb7f",
+    "ts": "2025-10-23T14:03:34",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Pneumonia",
+    "confidence": 0.5801007747650146,
+    "diagnosis": [
+      {
+        "label": "Pneumonia",
+        "confidence": 0.5801007747650146,
+        "description": "肺炎"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5712529420852661,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Edema",
+        "confidence": 0.5615411400794983,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199414309.jpg",
+    "original_url": "http://localhost:8000/uploads/original_7d22ae02ecca4d059d48c68513b4c3bd.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "13dabc11-91ee-41aa-ac99-d8d4f5f229d2",
+    "ts": "2025-10-23T14:04:02",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.5966746211051941,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.5966746211051941,
+        "description": "支持设备"
+      },
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.5428778529167175,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5390543341636658,
+        "description": "其他胸膜异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199442907.jpg",
+    "original_url": "http://localhost:8000/uploads/original_fcc6b4f640784000b4565f9110673203.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "6202c6ac-a145-4936-afdf-b788e9a4df3d",
+    "ts": "2025-10-23T14:04:40",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.5962895750999451,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.5962895750999451,
+        "description": "支持设备"
+      },
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.5396579504013062,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5369982123374939,
+        "description": "其他胸膜异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199480649.jpg",
+    "original_url": "http://localhost:8000/uploads/original_46aee6e15e8743a2ba717a16c30f7001.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "a0730817-66c2-4888-8d42-0648f1319e93",
+    "ts": "2025-10-23T14:04:47",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.5962895750999451,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.5962895750999451,
+        "description": "支持设备"
+      },
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.5396579504013062,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5369982123374939,
+        "description": "其他胸膜异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199486984.jpg",
+    "original_url": "http://localhost:8000/uploads/original_88ecd24c80d1498bbd08b9a50622482b.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "1fd71a8e-23d4-47ac-aaf7-3b73d7b4f0fe",
+    "ts": "2025-10-23T14:05:01",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.5915635824203491,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.5915635824203491,
+        "description": "支持设备"
+      },
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.5401540994644165,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5367701649665833,
+        "description": "其他胸膜异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199501235.jpg",
+    "original_url": "http://localhost:8000/uploads/original_08989cb0553649558518448f6997314e.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "9fae07e2-4207-4a2f-a7d8-e7ffc30d159e",
+    "ts": "2025-10-23T14:05:18",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.5981762409210205,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.5981762409210205,
+        "description": "支持设备"
+      },
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.5388934016227722,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5379989147186279,
+        "description": "其他胸膜异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199518646.jpg",
+    "original_url": "http://localhost:8000/uploads/original_b687cb2d0cd042fd9c9132d59615da7c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "7d5a0dd1-46d3-4ffe-981c-e0be41701544",
+    "ts": "2025-10-23T14:05:34",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.5972270965576172,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.5972270965576172,
+        "description": "支持设备"
+      },
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.5404680371284485,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5381416082382202,
+        "description": "其他胸膜异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199534154.jpg",
+    "original_url": "http://localhost:8000/uploads/original_9c640f629b9b4244afa806150212943c.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "9a1660e4-17b0-4187-a254-c3b67165dc62",
+    "ts": "2025-10-23T14:06:41",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.5962895750999451,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.5962895750999451,
+        "description": "支持设备"
+      },
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.5396579504013062,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5369982123374939,
+        "description": "其他胸膜异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199601959.jpg",
+    "original_url": "http://localhost:8000/uploads/original_dc418c2eccac4f788c334b9f1811e131.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "a7c1dd4e-a5e0-40ad-89a2-960b83952a20",
+    "ts": "2025-10-23T14:11:46",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.5962895750999451,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.5962895750999451,
+        "description": "支持设备"
+      },
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.5396579504013062,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Pleural Other",
+        "confidence": 0.5369982123374939,
+        "description": "其他胸膜异常"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199906864.jpg",
+    "original_url": "http://localhost:8000/uploads/original_474942803d0943a380f2801d0c61fb1e.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "45656bfb-19c4-4ad2-a9cb-e3abc0399994",
+    "ts": "2025-10-23T14:12:40",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Edema",
+    "confidence": 0.6304855942726135,
+    "diagnosis": [
+      {
+        "label": "Edema",
+        "confidence": 0.6304855942726135,
+        "description": "水肿"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.6044524312019348,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.5837752223014832,
+        "description": "胸腔积液"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199960003.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f380f2a635484481ac5b720651b3b1e7.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "3dcceb65-707d-48b4-b2c0-c21f3290c95e",
+    "ts": "2025-10-23T14:13:10",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Edema",
+    "confidence": 0.629748523235321,
+    "diagnosis": [
+      {
+        "label": "Edema",
+        "confidence": 0.629748523235321,
+        "description": "水肿"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.6081176400184631,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5837777853012085,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199990612.jpg",
+    "original_url": "http://localhost:8000/uploads/original_4b227c71d1264cbc862596888e5d2ec2.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "e4b5685e-8ee4-42a5-9179-9cc16a4b7d89",
+    "ts": "2025-10-23T14:13:15",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Edema",
+    "confidence": 0.629748523235321,
+    "diagnosis": [
+      {
+        "label": "Edema",
+        "confidence": 0.629748523235321,
+        "description": "水肿"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.6081176400184631,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5837777853012085,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761199995742.jpg",
+    "original_url": "http://localhost:8000/uploads/original_25401357ca3340e4a3dcbf1a83920e72.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "8306b41b-9697-498f-8b21-7fece9d814d2",
+    "ts": "2025-10-23T14:14:43",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Edema",
+    "confidence": 0.6200257539749146,
+    "diagnosis": [
+      {
+        "label": "Edema",
+        "confidence": 0.6200257539749146,
+        "description": "水肿"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.6033436059951782,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5832014679908752,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761200083092.jpg",
+    "original_url": "http://localhost:8000/uploads/original_0a94cb1550df45e2bd87851436578466.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "15b7ba55-c4b2-455c-8f5a-f97b28cb60b3",
+    "ts": "2025-10-23T14:53:38",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Edema",
+    "confidence": 0.633614718914032,
+    "diagnosis": [
+      {
+        "label": "Edema",
+        "confidence": 0.633614718914032,
+        "description": "水肿"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.6113295555114746,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5879318118095398,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761202418899.jpg",
+    "original_url": "http://localhost:8000/uploads/original_561a547bf28b4e018e3a7cefcd7b3916.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "88353a93-d76c-4125-aec6-f19963c78761",
+    "ts": "2025-10-23T14:54:01",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Edema",
+    "confidence": 0.6282333731651306,
+    "diagnosis": [
+      {
+        "label": "Edema",
+        "confidence": 0.6282333731651306,
+        "description": "水肿"
+      },
+      {
+        "label": "Lung Opacity",
+        "confidence": 0.6070972681045532,
+        "description": "肺部不透明"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.5824019312858582,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761202441288.jpg",
+    "original_url": "http://localhost:8000/uploads/original_f859c3651b014b158380204fe54ada00.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "b55ac7f7-053d-4acf-abb9-72ad4913abf0",
+    "ts": "2025-10-23T14:56:43",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Enlarged Cardiomediastinum",
+    "confidence": 0.6109654307365417,
+    "diagnosis": [
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.6109654307365417,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Support Devices",
+        "confidence": 0.5784220695495605,
+        "description": "支持设备"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.5589402914047241,
+        "description": "胸腔积液"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761202602992.jpg",
+    "original_url": "http://localhost:8000/uploads/original_98027cd3dff04732a6ba1b5f528c688f.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "9835c6d1-7ef5-4769-bb56-42d4d56f6506",
+    "ts": "2025-10-23T14:57:22",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Enlarged Cardiomediastinum",
+    "confidence": 0.6173399686813354,
+    "diagnosis": [
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.6173399686813354,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Support Devices",
+        "confidence": 0.580819845199585,
+        "description": "支持设备"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.5601502656936646,
+        "description": "胸腔积液"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761202642907.jpg",
+    "original_url": "http://localhost:8000/uploads/original_9c8a50b306e54be19667cb1e218b0d78.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "401abde1-9e53-49eb-a534-12ff0de0907e",
+    "ts": "2025-10-23T15:05:44",
+    "file_name": "logo192.png",
+    "top1": "Enlarged Cardiomediastinum",
+    "confidence": 0.6011216640472412,
+    "diagnosis": [
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.6011216640472412,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Support Devices",
+        "confidence": 0.5844212174415588,
+        "description": "支持设备"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5501708984375,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203144897.jpg",
+    "original_url": "http://localhost:8000/uploads/original_19604387d4d947a8a73866d19550f8fd.png",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "39d61e02-0603-4fcf-8486-b3d357b7e575",
+    "ts": "2025-10-23T15:09:57",
+    "file_name": "logo192.png",
+    "top1": "Enlarged Cardiomediastinum",
+    "confidence": 0.6011216640472412,
+    "diagnosis": [
+      {
+        "label": "Enlarged Cardiomediastinum",
+        "confidence": 0.6011216640472412,
+        "description": "心纵膈增大"
+      },
+      {
+        "label": "Support Devices",
+        "confidence": 0.5844212174415588,
+        "description": "支持设备"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5501708984375,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203397187.jpg",
+    "original_url": "http://localhost:8000/uploads/original_b198ad69b8a04789ac4b2e7bbdca299a.png",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "974a543d-2945-4460-8e76-85def97c28d6",
+    "ts": "2025-10-23T15:10:56",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.6125404238700867,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.6125404238700867,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.5503859519958496,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Support Devices",
+        "confidence": 0.5158986449241638,
+        "description": "支持设备"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203456576.jpg",
+    "original_url": "http://localhost:8000/uploads/original_4780143f5ec64ce99bb4ff4348d545e8.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "d8a20afb-3f43-4d81-8f3e-3b38e91d886e",
+    "ts": "2025-10-23T15:11:12",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.6115982532501221,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.6115982532501221,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.5492825508117676,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Support Devices",
+        "confidence": 0.5166089534759521,
+        "description": "支持设备"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203472740.jpg",
+    "original_url": "http://localhost:8000/uploads/original_5192e13821914fc39e2c142588db902e.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "370034fc-a5b4-4086-a4a7-1320daa211aa",
+    "ts": "2025-10-23T15:11:16",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Pleural Other",
+    "confidence": 0.6115982532501221,
+    "diagnosis": [
+      {
+        "label": "Pleural Other",
+        "confidence": 0.6115982532501221,
+        "description": "其他胸膜异常"
+      },
+      {
+        "label": "Cardiomegaly",
+        "confidence": 0.5492825508117676,
+        "description": "心脏肥大"
+      },
+      {
+        "label": "Support Devices",
+        "confidence": 0.5166089534759521,
+        "description": "支持设备"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203476192.jpg",
+    "original_url": "http://localhost:8000/uploads/original_5a4eca856ee543f680a9149ca45327c7.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "c728b486-1289-4d66-befa-8b400dcb93fa",
+    "ts": "2025-10-23T15:14:19",
+    "file_name": "patient35209_study3_view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.7564285397529602,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.7564285397529602,
+        "description": "支持设备"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.7364169359207153,
+        "description": "胸腔积液"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203659647.jpg",
+    "original_url": "http://localhost:8000/uploads/original_14817fb187004712b487bd185c847b5f.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "1487ad68-1ba9-4d2e-b6c7-967d6c94d8e4",
+    "ts": "2025-10-23T15:15:57",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Lung Lesion",
+    "confidence": 0.47073352336883545,
+    "diagnosis": [
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.47073352336883545,
+        "description": "肺部病变"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.43587592244148254,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.3166845738887787,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203757946.jpg",
+    "original_url": "http://localhost:8000/uploads/original_4f09f5e0b8464b939d3731fdfe41c201.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "930c4522-3943-42b3-82e5-1b27b19c1993",
+    "ts": "2025-10-23T15:16:33",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Lung Lesion",
+    "confidence": 0.4542803466320038,
+    "diagnosis": [
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.4542803466320038,
+        "description": "肺部病变"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.4009435772895813,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.3061021566390991,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203792963.jpg",
+    "original_url": "http://localhost:8000/uploads/original_fd74863b1f8e45f2a4bb5b1fa856a7b1.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "594897e8-02c2-49df-aa2b-7709e2fe19b3",
+    "ts": "2025-10-23T15:17:35",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.9149669408798218,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.9149669408798218,
+        "description": "支持设备"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5800978541374207,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761203855339.jpg",
+    "original_url": "http://localhost:8000/uploads/original_6cbe5b277e2a45b1bcba54d20b98c276.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ed763938-e35e-418b-9c08-89f8e352cc29",
+    "ts": "2025-10-23T15:29:44",
+    "file_name": "patient40000_study2_view1_frontal.jpg",
+    "top1": "Lung Lesion",
+    "confidence": 0.47073352336883545,
+    "diagnosis": [
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.47073352336883545,
+        "description": "肺部病变"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.43587592244148254,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.3166845738887787,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761204584747.jpg",
+    "original_url": "http://localhost:8000/uploads/original_0a145142155d495c8707bb6ecda1ed48.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "754cef0e-9634-43a9-b53b-d9ad4629b056",
+    "ts": "2025-10-23T15:31:19",
+    "file_name": "patient37690_study4_view1_frontal.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.6107103824615479,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.6107103824615479,
+        "description": "支持设备"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761204679492.jpg",
+    "original_url": "http://localhost:8000/uploads/original_b30b4209aeec41a6b99d889f5a3ad7b8.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "ef5532b8-f0b7-4292-8d23-5d320f7d03c1",
+    "ts": "2025-10-23T15:32:09",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Lung Lesion",
+    "confidence": 0.4542803466320038,
+    "diagnosis": [
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.4542803466320038,
+        "description": "肺部病变"
+      },
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.4009435772895813,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Atelectasis",
+        "confidence": 0.3061021566390991,
+        "description": "肺不张"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761204729372.jpg",
+    "original_url": "http://localhost:8000/uploads/original_14a2fa0ec1004cc184295ce883d596ca.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "f057e816-91eb-42a9-9cad-28b120f0b7ca",
+    "ts": "2025-10-23T15:32:30",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Edema",
+    "confidence": 0.6439071893692017,
+    "diagnosis": [
+      {
+        "label": "Edema",
+        "confidence": 0.6439071893692017,
+        "description": "水肿"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761204750211.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c515b4f2925b4226997999daad046dcb.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "04e75320-dd48-49f4-94c4-aca43ca786c4",
+    "ts": "2025-10-23T15:38:25",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.9149669408798218,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.9149669408798218,
+        "description": "支持设备"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5800978541374207,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761205105705.jpg",
+    "original_url": "http://localhost:8000/uploads/original_347c7cc5547643b2a75faba48ffc19c5.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "3bc2c1d6-6f4e-4c8c-8e45-6a116abafd00",
+    "ts": "2025-10-23T15:39:04",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Effusion",
+    "confidence": 0.5351594090461731,
+    "diagnosis": [
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.5351594090461731,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.519848108291626,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761205144483.jpg",
+    "original_url": "http://localhost:8000/uploads/original_c0e36029ed8447769149c58793a65691.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "1d23b675-2a88-4b39-9055-553fce53bbbe",
+    "ts": "2025-10-23T15:40:23",
+    "file_name": "view1_frontal.jpg",
+    "top1": "Pleural Effusion",
+    "confidence": 0.5351594090461731,
+    "diagnosis": [
+      {
+        "label": "Pleural Effusion",
+        "confidence": 0.5351594090461731,
+        "description": "胸腔积液"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.519848108291626,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761205223637.jpg",
+    "original_url": "http://localhost:8000/uploads/original_19bc0a84a65c4ad58782d4e949945323.jpg",
+    "status": "completed",
+    "source": "chexpert"
+  },
+  {
+    "id": "6b6a89e4-db09-4554-9801-481815b7c573",
+    "ts": "2025-10-23T15:41:20",
+    "file_name": "495ed720790ab6d5f1eb19d144e468b2.jpg",
+    "top1": "Support Devices",
+    "confidence": 0.9149669408798218,
+    "diagnosis": [
+      {
+        "label": "Support Devices",
+        "confidence": 0.9149669408798218,
+        "description": "支持设备"
+      },
+      {
+        "label": "Lung Lesion",
+        "confidence": 0.5800978541374207,
+        "description": "肺部病变"
+      }
+    ],
+    "heatmap_url": "http://localhost:8000/uploads/heatmap_1761205280861.jpg",
+    "original_url": "http://localhost:8000/uploads/original_aa87ff0daaa2496099913224e61469f1.jpg",
+    "status": "completed",
+    "source": "chexpert"
   }
 ]
